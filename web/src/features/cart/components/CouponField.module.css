@@ -1,0 +1,57 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.row {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.input {
+  flex: 1;
+  height: 44px;
+  padding: 0 var(--space-3);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  font-family: var(--font-body);
+  font-size: var(--text-input-size);
+  color: var(--color-text-body);
+}
+.input[aria-invalid='true'] {
+  border-color: var(--color-danger);
+}
+
+.error {
+  font-size: var(--text-meta-size);
+  color: var(--color-danger);
+}
+
+.applied {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-sage-100);
+  border-radius: var(--radius-md);
+}
+
+.appliedLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-meta-size);
+  color: var(--color-brand-green);
+}
+
+.remove {
+  display: inline-flex;
+  border: none;
+  background: none;
+  color: var(--color-text-muted);
+}
+.remove:hover {
+  color: var(--color-danger);
+}

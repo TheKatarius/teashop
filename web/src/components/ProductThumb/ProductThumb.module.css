@@ -1,0 +1,11 @@
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  background: var(--color-bg-cool-cream);
+  font-size: 64px;
+  line-height: 1;
+  user-select: none;
+}

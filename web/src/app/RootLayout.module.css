@@ -1,0 +1,12 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background: var(--color-bg-page);
+}
+
+/* Full-bleed: pages control their own width via the global .container helper. */
+.main {
+  flex: 1;
+  width: 100%;
+}

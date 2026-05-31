@@ -1,0 +1,135 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  background: rgba(3, 36, 22, 0.45);
+}
+
+.drawer {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: min(400px, 92vw);
+  height: 100%;
+  background: var(--color-bg-canvas);
+  display: flex;
+  flex-direction: column;
+  animation: slide-in var(--motion-slow);
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-h4-size);
+  color: var(--color-brand-ink);
+}
+
+.close {
+  display: inline-flex;
+  border: none;
+  background: none;
+  color: var(--color-brand-ink);
+}
+
+.empty {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  color: var(--color-text-muted);
+  text-align: center;
+  padding: var(--space-6);
+}
+
+.items {
+  flex: 1;
+  overflow-y: auto;
+  padding: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--color-border-soft);
+}
+
+.thumb {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--radius-md);
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+.itemBody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.itemName {
+  font-size: var(--text-body-emphasis-size);
+  font-weight: var(--text-body-emphasis-weight);
+  color: var(--color-brand-ink);
+}
+
+.itemMeta {
+  font-size: var(--text-caption-size);
+  color: var(--color-text-muted);
+}
+
+.itemPrice {
+  font-weight: var(--text-body-bold-weight);
+  color: var(--color-brand-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  padding: var(--space-5);
+  border-top: 1px solid var(--color-border);
+}
+
+.subtotalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-body-lead-size);
+  color: var(--color-text-body);
+}
+
+.subtotal {
+  font-weight: var(--text-body-bold-weight);
+  color: var(--color-brand-ink);
+  font-variant-numeric: tabular-nums;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drawer {
+    animation: none;
+  }
+}

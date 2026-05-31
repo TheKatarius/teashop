@@ -1,0 +1,25 @@
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  height: 32px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-bg-canvas);
+  color: var(--color-text-body);
+  font-size: var(--text-meta-size);
+  transition:
+    background var(--motion-base),
+    color var(--motion-base),
+    border-color var(--motion-base);
+}
+.chip:hover {
+  border-color: var(--color-brand-green);
+}
+
+.selected {
+  background: var(--color-brand-green);
+  border-color: var(--color-brand-green);
+  color: var(--color-text-on-brand);
+}

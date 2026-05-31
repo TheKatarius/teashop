@@ -1,0 +1,146 @@
+:root {
+  /* ─── Color: brand ─────────────────────────────────────────── */
+  --color-brand-ink:        #032416;
+  --color-brand-dark:       #1A3A2A;
+  --color-brand-green:      #2D5A3D;
+  --color-brand-green-mid:  #456553;
+
+  /* ─── Color: sage / mint ───────────────────────────────────── */
+  --color-mint:             #ABCFB8;
+  --color-mint-soft:        #C7EBD4;
+  --color-sage-50:          #D6E8D0;
+  --color-sage-100:         #EEF5EC;
+  --color-sage-divider:     #C1C8C2;
+
+  /* ─── Color: gold accent ───────────────────────────────────── */
+  --color-gold:             #C4974A;
+  --color-rating:           #F0BF6D;
+
+  /* ─── Color: functional ────────────────────────────────────── */
+  --color-danger:           #BA1A1A;
+  --color-info:             #2563EB;
+
+  /* ─── Color: neutrals (warm cream) ─────────────────────────── */
+  --color-bg-page:          #F5F2EC;
+  --color-bg-canvas:        #FAF9F6;
+  --color-bg-cream:         #FAF7F0;
+  --color-bg-sidebar:       #F4F4F0;
+  --color-bg-beige:         #EEE8DC;
+  --color-bg-beige-warm:    #EEE9DF;
+  --color-bg-cool-cream:    #EEEEEB;
+  --color-surface:          #FFFFFF;
+
+  /* ─── Color: borders ───────────────────────────────────────── */
+  --color-border:           #DDD5C4;
+  --color-border-soft:      #E3E3E0;
+  --color-border-neutral:   #DADAD7;
+
+  /* ─── Color: text ──────────────────────────────────────────── */
+  --color-text:             #1C1C1C;
+  --color-text-body:        #424843;
+  --color-text-muted:       #6B6B6B;
+  --color-text-input:       #6B7280;
+  --color-text-disabled:    #727973;
+  --color-text-on-brand:    #FFFFFF;
+
+  /* ─── Color: overlays / glass ──────────────────────────────── */
+  --color-ink-overlay-80:   #03241680;
+  --color-ink-overlay-66:   #1A3A2A66;
+  --color-brand-link:       #032416CC;
+  --color-canvas-frost:     #FAF9F6CC;
+  --color-cream-frost:      #FAF7F0CC;
+  --color-white-glass-80:   #FFFFFF80;
+  --color-white-glass-cc:   #FFFFFFCC;
+  --color-mint-overlay-30:  #ABCFB84D;
+  --color-gold-overlay-10:  #C4974A1A;
+  --color-gold-overlay-30:  #C4974A4D;
+
+  /* ─── Typography: families ─────────────────────────────────── */
+  --font-display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-body:    'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* ─── Typography: display & headings (Playfair) ────────────── */
+  --text-display-size: 72px;   --text-display-lh: 79.2px;  --text-display-weight: 800; --text-display-ls: -1.44px;
+  --text-h1-size:      42px;   --text-h1-lh:      50.4px;  --text-h1-weight:      700;
+  --text-h2-size:      32px;   --text-h2-lh:      38.4px;  --text-h2-weight:      700;
+  --text-h3-size:      26px;   --text-h3-lh:      33.8px;  --text-h3-weight:      600;
+  --text-h3-alt-size:  22px;   --text-h3-alt-lh:  33px;    --text-h3-alt-weight:  400;
+  --text-h4-size:      20px;   --text-h4-lh:      30px;    --text-h4-weight:      400;
+  --text-h5-size:      20px;   --text-h5-lh:      28px;    --text-h5-weight:      400;
+  --text-card-title-size: 18px; --text-card-title-lh: 27px; --text-card-title-weight: 400;
+  --text-category-size: 17px;  --text-category-lh: 25.5px; --text-category-weight: 400;
+
+  /* ─── Typography: body / UI (Inter) ────────────────────────── */
+  --text-body-lead-size:     16px; --text-body-lead-lh:     25.6px; --text-body-lead-weight:     400;
+  --text-body-emphasis-size: 16px; --text-body-emphasis-lh: 25.6px; --text-body-emphasis-weight: 500;
+  --text-body-bold-size:     16px; --text-body-bold-lh:     25.6px; --text-body-bold-weight:     600;
+  --text-body-strong-size:   16px; --text-body-strong-lh:   25.6px; --text-body-strong-weight:   700;
+  --text-input-size:         16px; --text-input-lh:         19.36px; --text-input-weight:        400;
+  --text-select-size:        16px; --text-select-lh:        24px;   --text-select-weight:        400;
+  --text-summary-size:       15px; --text-summary-lh:       22.5px; --text-summary-weight:       400;
+  --text-meta-size:          14px; --text-meta-lh:          20px;   --text-meta-weight:          400;
+  --text-label-size:         14px; --text-label-lh:         14px;   --text-label-weight:         500;
+  --text-nav-size:           14px; --text-nav-lh:           14px;   --text-nav-weight:           500; --text-nav-ls: 0.7px;
+  --text-button-size:        14px; --text-button-lh:        14px;   --text-button-weight:        700; --text-button-ls: 1.12px;
+  --text-link-size:          13px; --text-link-lh:          19.5px; --text-link-weight:          400;
+  --text-caption-size:       12px; --text-caption-lh:       18px;   --text-caption-weight:       400;
+  --text-caption-tight-size: 12px; --text-caption-tight-lh: 16px;   --text-caption-tight-weight: 400;
+  --text-tag-size:           11px; --text-tag-lh:           16.5px; --text-tag-weight:           400; --text-tag-ls: 0.55px;
+  --text-eyebrow-size:       12px; --text-eyebrow-lh:       12px;   --text-eyebrow-weight:       600; --text-eyebrow-ls: 1.2px;
+  --text-button-sm-size:     12px; --text-button-sm-lh:     12px;   --text-button-sm-weight:     600; --text-button-sm-ls: 0.96px;
+  --text-eyebrow-sm-size:    12px; --text-eyebrow-sm-lh:    12px;   --text-eyebrow-sm-weight:    600; --text-eyebrow-sm-ls: 0.6px;
+  --text-badge-size:         10px; --text-badge-lh:         15px;   --text-badge-weight:         400; --text-badge-ls: 1px;
+  --text-badge-sm-size:      10px; --text-badge-sm-lh:      15px;   --text-badge-sm-weight:      400; --text-badge-sm-ls: 0.5px;
+  --text-badge-cat-size:     10px; --text-badge-cat-lh:     15px;   --text-badge-cat-weight:     400;
+
+  /* ─── Spacing (4px base) ───────────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+  --space-10: 128px;
+
+  /* ─── Radii (Figma uses only these four) ───────────────────── */
+  --radius-sm:     2px;
+  --radius-md:     4px;
+  --radius-lg:     8px;
+  --radius-xl:     12px;
+  --radius-pill:   999px;
+  --radius-circle: 50%;
+
+  /* ─── Shadows ──────────────────────────────────────────────── */
+  --shadow-card:      0 2px 8px #0000000D;
+  --shadow-card-soft: 0 2px 8px #00000005;
+  --shadow-cta:       0 1px 2px #0000000D;
+  --shadow-hero:      0 25px 50px -12px #00000040;
+  --backdrop-blur-sm: blur(4px);
+  --backdrop-blur-md: blur(8px);
+  --backdrop-blur-lg: blur(12px);
+
+  /* ─── Motion ───────────────────────────────────────────────── */
+  --motion-fast: 120ms ease-out;
+  --motion-base: 200ms cubic-bezier(.2, .7, .3, 1);
+  --motion-slow: 320ms cubic-bezier(.2, .7, .3, 1);
+  --motion-page: 240ms ease-out;
+
+  /* ─── Layout ───────────────────────────────────────────────── */
+  --container-max: 1200px;
+  --bp-mobile:     480px;
+  --bp-tablet:     768px;
+  --bp-desktop:    1024px;
+  --bp-wide:       1440px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-base: 0ms;
+    --motion-slow: 0ms;
+    --motion-page: 0ms;
+  }
+}

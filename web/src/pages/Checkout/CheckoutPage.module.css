@@ -1,0 +1,222 @@
+.stepper {
+  display: flex;
+  gap: var(--space-3);
+  justify-content: center;
+  padding-block: var(--space-7) var(--space-6);
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-text-muted);
+}
+
+.stepCircle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-circle);
+  background: var(--color-border);
+  color: var(--color-text-on-brand);
+  font-size: var(--text-meta-size);
+  font-weight: var(--text-button-weight);
+}
+
+.stepActive {
+  color: var(--color-brand-ink);
+}
+.stepActive .stepCircle {
+  background: var(--color-brand-green);
+}
+
+.stepLabel {
+  font-size: var(--text-meta-size);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  padding-bottom: var(--space-8);
+  align-items: start;
+}
+
+.panel {
+  padding: var(--space-6);
+  background: var(--color-bg-canvas);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.heading {
+  font-size: var(--text-h2-size);
+  line-height: var(--text-h2-lh);
+  font-weight: var(--text-h2-weight);
+  color: var(--color-brand-ink);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.deliveryOption {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    'radio name price'
+    'radio eta price';
+  align-items: center;
+  gap: 0 var(--space-3);
+  padding: var(--space-4);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+}
+
+.deliveryOption input {
+  grid-area: radio;
+}
+
+.deliverySelected {
+  border-color: var(--color-brand-green);
+  background: var(--color-sage-100);
+}
+
+.deliveryName {
+  grid-area: name;
+  font-weight: var(--text-body-strong-weight);
+  color: var(--color-brand-ink);
+}
+
+.deliveryEta {
+  grid-area: eta;
+  font-size: var(--text-caption-size);
+  color: var(--color-text-muted);
+}
+
+.deliveryPrice {
+  grid-area: price;
+  font-weight: var(--text-body-bold-weight);
+  color: var(--color-brand-ink);
+}
+
+.navRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.back {
+  border: none;
+  background: none;
+  color: var(--color-text-muted);
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+}
+.back:hover {
+  color: var(--color-brand-green);
+}
+
+.reviewItems {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.reviewItem {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-3);
+  font-size: var(--text-meta-size);
+  color: var(--color-text-body);
+}
+
+.address {
+  padding: var(--space-4);
+  background: var(--color-bg-sidebar);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-meta-size);
+  color: var(--color-text-body);
+}
+
+/* ─── Summary ───────────────────────────────────────────── */
+.summary {
+  padding: var(--space-5);
+  background: var(--color-bg-canvas);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+}
+
+.summaryTitle {
+  font-size: var(--text-h3-size);
+  font-weight: var(--text-h3-weight);
+  color: var(--color-brand-ink);
+  margin-bottom: var(--space-4);
+}
+
+.totals {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin: 0;
+}
+
+.row,
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-summary-size);
+  color: var(--color-text-body);
+}
+
+.row dd,
+.totalRow dd {
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.discount {
+  color: var(--color-brand-green);
+}
+
+.totalRow {
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-border);
+  font-size: var(--text-h4-size);
+  font-weight: var(--text-body-bold-weight);
+  color: var(--color-brand-ink);
+}
+
+@media (min-width: 600px) {
+  .grid2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: 1.6fr 1fr;
+  }
+  .summary {
+    position: sticky;
+    top: 96px;
+  }
+}
