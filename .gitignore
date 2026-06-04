@@ -33,5 +33,6 @@ test-results/
 Thumbs.db
 
 # Figma cache (raw API dumps; keep curated tokens in design.md)
+docs/figma/raw.json
 docs/figma/styles.json
 docs/figma/tokens.draft.css
