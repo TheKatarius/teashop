@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-meta-size);
+  color: var(--color-text-body);
+}
+
+.label strong {
+  color: var(--color-brand-green);
+}
+
+.track {
+  height: 8px;
+  border-radius: var(--radius-pill);
+  background: var(--color-border-soft);
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  border-radius: var(--radius-pill);
+  background: var(--color-brand-green);
+  transition: width var(--motion-slow);
+}

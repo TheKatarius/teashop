@@ -1,0 +1,101 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  border: none;
+  border-radius: var(--radius-xl);
+  font-family: var(--font-body);
+  font-weight: var(--text-button-weight);
+  letter-spacing: var(--text-button-ls);
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background-color var(--motion-base),
+    color var(--motion-base),
+    border-color var(--motion-base);
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.btn:disabled,
+.btn[aria-disabled='true'] {
+  background: var(--color-text-disabled);
+  color: var(--color-text-on-brand);
+  border-color: var(--color-text-disabled);
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ─── Sizes ─────────────────────────────────────────────── */
+.sm {
+  height: 32px;
+  padding: 0 var(--space-4);
+  font-size: var(--text-button-sm-size);
+  letter-spacing: var(--text-button-sm-ls);
+}
+.md {
+  height: 44px;
+  padding: 0 var(--space-5);
+  font-size: var(--text-button-size);
+}
+.lg {
+  height: 56px;
+  padding: 0 var(--space-6);
+  font-size: var(--text-button-size);
+}
+
+.full {
+  width: 100%;
+}
+
+/* ─── Variants ──────────────────────────────────────────── */
+.primary-solid {
+  background: var(--color-brand-green);
+  color: var(--color-text-on-brand);
+}
+.primary-solid:hover {
+  background: var(--color-brand-dark);
+}
+
+.primary-dark {
+  background: var(--color-brand-dark);
+  color: var(--color-text-on-brand);
+}
+.primary-dark:hover {
+  background: var(--color-brand-ink);
+}
+
+.secondary-outline {
+  background: transparent;
+  color: var(--color-brand-green);
+  border: 1.5px solid var(--color-brand-green);
+}
+.secondary-outline:hover {
+  background: var(--color-sage-100);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--color-text-muted);
+  text-transform: none;
+  letter-spacing: 0;
+  font-size: var(--text-label-size);
+  font-weight: var(--text-label-weight);
+}
+.ghost:hover {
+  color: var(--color-brand-green);
+  text-decoration: underline;
+}
+
+.danger {
+  background: var(--color-danger);
+  color: var(--color-text-on-brand);
+}
+.danger:hover {
+  filter: brightness(0.92);
+}

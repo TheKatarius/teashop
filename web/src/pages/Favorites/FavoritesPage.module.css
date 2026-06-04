@@ -1,0 +1,7 @@
+.title {
+  font-size: var(--text-h1-size);
+  line-height: var(--text-h1-lh);
+  font-weight: var(--text-h1-weight);
+  color: var(--color-brand-ink);
+  padding-block: var(--space-7) var(--space-5);
+}

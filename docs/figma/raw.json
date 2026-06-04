@@ -1,0 +1,1646 @@
+{
+  "fileKey": "Cm5mXknRWG9UCxqU7OD0AB",
+  "fileName": "TeaShop",
+  "lastModified": "2026-05-29T21:42:54Z",
+  "pages": [
+    {
+      "name": "Page 1",
+      "topFrames": [
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "1920w light",
+          "type": "FRAME"
+        },
+        {
+          "name": "LEFT COLUMN (58%) - Success Card",
+          "type": "FRAME"
+        }
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "hex": "#032416",
+      "count": 351,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Heading 1:margin/Heading 1 → Herbata,\nktóra pasuje\ndo Twojego\nnastroju.",
+        "Page 1/1920w light/Main/Section/Container/Container/Link",
+        "Page 1/1920w light/Main/Section/Container/Container/Link/ZRÓB QUIZ",
+        "Page 1/1920w light/Main/Section",
+        "Page 1/1920w light/Main/Section/Heading 2/Odkryj kategorie"
+      ]
+    },
+    {
+      "hex": "#6B6B6B",
+      "count": 295,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/NOWA KOLEKCJA WIOSNA 2025",
+        "Page 1/1920w light/Main/Section/Container/Margin/Zrób krótki quiz i znajdź swój smak.",
+        "Page 1/1920w light/Main/Section/Container/Link/Margin/Container/Zobacz kolekcję",
+        "Page 1/1920w light/Main/Section/Container/Link/Margin/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main/Section/Container/Container/Link/Zobacz wszystkie herbaty"
+      ]
+    },
+    {
+      "hex": "#DDD5C4",
+      "count": 217,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Border",
+        "Page 1/1920w light/Main/Section/Container/Link",
+        "Page 1/1920w light/Main/Section/Container/Container/Article",
+        "Page 1/1920w light/Main/Section/Container/Article",
+        "Page 1/1920w light/Header - TopNavBar"
+      ]
+    },
+    {
+      "hex": "#FFFFFF",
+      "count": 133,
+      "samples": [
+        "Page 1/1920w light",
+        "Page 1/1920w light/Main/Section/Container/Container/Link/ODKRYJ KOLEKCJĘ",
+        "Page 1/1920w light/Main/Section/Container/Link",
+        "Page 1/1920w light/Main/Section",
+        "Page 1/1920w light/Main/Section/Container/Container/Article"
+      ]
+    },
+    {
+      "hex": "#FAF9F6",
+      "count": 75,
+      "samples": [
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card A (SELECTED)/Margin/Background+Border",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card B/Margin/Background+Border",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card C/Margin/Background+Border",
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card A",
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card C"
+      ]
+    },
+    {
+      "hex": "#1C1C1C",
+      "count": 55,
+      "samples": [
+        "Page 1/1920w light/Main Content/Container/Header Section/Heading 1/Znajdź swoją idealną herbatę",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Margin/Container/3 pytania",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Margin/Container/30 sekund",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Margin/Container/Precyzyjny wynik",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Question Block/Heading 2/Jaki jest Twój poziom doświadczenia z herbatą?"
+      ]
+    },
+    {
+      "hex": "#F5F2EC",
+      "count": 54,
+      "samples": [
+        "Page 1/1920w light",
+        "Page 1/1920w light/Footer - Bottom Nav (Quiz Specific)",
+        "Page 1/1920w light/BottomNavBar",
+        "Page 1/1920w light/Main:margin/Main/Progress Bar/Background",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Payment Method/BLIK Code Input (conditionally visible)"
+      ]
+    },
+    {
+      "hex": "#EEE8DC",
+      "count": 47,
+      "samples": [
+        "Page 1/1920w light/Main/Section",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/HorizontalBorder",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card A (SELECTED)/Margin/Background+Border",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card B/Margin/Background+Border",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card C/Margin/Background+Border"
+      ]
+    },
+    {
+      "hex": "#FAF7F0",
+      "count": 45,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/4.8 / 5 — ponad 2 400 opinii",
+        "Page 1/1920w light/Main/Section/Container/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main/Section/Container/Container/Single Origin · Certyfikowane ogrody",
+        "Page 1/1920w light/Main/Section/Container/Container/Darmowa dostawa od 99 zł",
+        "Page 1/1920w light/Main/Section/Container/Heading 2:margin/Heading 2/Nie wiesz, którą herbatę wybrać?"
+      ]
+    },
+    {
+      "hex": "#C4974A",
+      "count": 33,
+      "samples": [
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Left Image Column/Margin/Container/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main - Product Detail Block/RIGHT: Product Info (approx 48% -> 6 cols in 12 grid)/Margin/HorizontalBorder/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Container/Margin/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Container/Margin/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Container/Margin/Container/Container/Icon/Vector"
+      ]
+    },
+    {
+      "hex": "#424843",
+      "count": 30,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Odkryj botaniczne kompozycje tworzone z myślą o uważności. Ręcznie zbierane liście, naturalne olejki i filozofia powolnego życia w każdej filiżance.",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Container/Container/Label/Imię",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Container/Container/Label/Nazwisko",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Margin/Container/Label/Ulica",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Margin/Container/Container/Label/Nr domu/mieszkania"
+      ]
+    },
+    {
+      "hex": "#2D5A3D",
+      "count": 30,
+      "samples": [
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Container/Background/ZIELONA",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Actions:margin/Actions/Button",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Actions:margin/Actions/Button/CZYTAJ WIĘCEJ",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Container/Free Shipping Progress/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Container/Free Shipping Progress/Background/Background"
+      ]
+    },
+    {
+      "hex": "#6B7280",
+      "count": 28,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Imi/Input/Container/Jan",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Nazwisko/Input/Container/Kowalski",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Telefon/Input/Container/+48 000 000 000",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Container/Container/Input",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Container/Container/Input/Container/Jan"
+      ]
+    },
+    {
+      "hex": "#1A3A2A",
+      "count": 25,
+      "samples": [
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/Quiz nastroju",
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/Link",
+        "Page 1/1920w light/Main Content/Container/Header Section/Container/QUIZ NASTROJU",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main Content/Container/CTA/Button"
+      ]
+    },
+    {
+      "hex": "#E3E3E0",
+      "count": 18,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Background",
+        "Page 1/1920w light/Main/Section/Container/Article/Background/Background",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Background+Border",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Container/Free Shipping Progress/Background",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Products Read Only/Container/Item 1/Image+Background"
+      ]
+    },
+    {
+      "hex": "#D6E8D0",
+      "count": 17,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Background",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Info Tip Box",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Container/Background",
+        "Page 1/1920w light/Main - Product Detail Block/RIGHT: Product Info (approx 48% -> 6 cols in 12 grid)/Margin/Container/Background",
+        "Page 1/1920w light/Section - Related Products/Container/Link - Card 1/Background+HorizontalBorder/Background"
+      ]
+    },
+    {
+      "hex": "#EEEEEB",
+      "count": 15,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background",
+        "Page 1/1920w light/Main/Section/Container/Article/Background",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Background",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 1/Image",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 2/Background"
+      ]
+    },
+    {
+      "hex": "#F4F4F0",
+      "count": 13,
+      "samples": [
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Categories/List/Item → Link",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Container/Margin/Container/Background+Border",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Container/Margin/Container/Background+Border",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Background/Background",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Container/Margin/Container/Background+Border"
+      ]
+    },
+    {
+      "hex": "#EEF5EC",
+      "count": 10,
+      "samples": [
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card B (SELECTED)",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card A (SELECTED)",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Info Tip Box",
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card B (SELECTED)",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Payment Method/Container/BLIK (Selected)"
+      ]
+    },
+    {
+      "hex": "#ABCFB8",
+      "count": 9,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Znajdź swój profil smakowy",
+        "Page 1/1920w light/Section - HERO ZONE/Container/TWÓJ WYNIK",
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Container/Overlay+Border/Container/Relaks",
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Container/Overlay+Border/Margin/Container/Icon/Vector",
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Container/Overlay+Border/Container/Cytrusowy"
+      ]
+    },
+    {
+      "hex": "#BA1A1A",
+      "count": 8,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Adres e-mail (ERROR STATE)/Label/Adres e-mail",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Adres e-mail (ERROR STATE)/Margin/Container/Podaj prawidłowy adres e-mail",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Adres e-mail (ERROR STATE)/Container/Input",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Adres e-mail (ERROR STATE)/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 1/Container/Button/Container/Icon/Vector"
+      ]
+    },
+    {
+      "hex": "#ABCFB84d",
+      "count": 7,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Overlay+Border",
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Container/Overlay+Border",
+        "Page 1/1920w light/Main/Section - Hero Zone/Container/Border"
+      ]
+    },
+    {
+      "hex": "#727973",
+      "count": 7,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Button - Disabled CTA:margin/Button - Disabled CTA",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Button - Disabled CTA:margin/Button - Disabled CTA/Kontynuuj",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Margin/Container/Container/Container/Container/Icon/Vector",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 1: Inpost/Container/Border",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 2: DPD (Selected)/Container/Border"
+      ]
+    },
+    {
+      "hex": "#00000000",
+      "count": 6,
+      "samples": [
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Flavor Profile/Container/Label/Input",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Pagination/Button",
+        "Page 1/1920w light/Main/Section - Personalization Banner/Button:margin/Button",
+        "Page 1/1920w light/Main Content/Two-Column Layout/LEFT: Contact Form Card (58%)/Form/GDPR & Submit/Input:margin/Input"
+      ]
+    },
+    {
+      "hex": "#EEE9DF",
+      "count": 6,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Left: Imagery & Details (7 cols)/What's included block",
+        "Page 1/1920w light/Origin Map Section (Type B)/Map Image (Right)",
+        "Page 1/1920w light/Team Section (Type C, Centered)/Container/Editorial Portrait Cards/Article - Card 1: Marta/Background",
+        "Page 1/1920w light/Team Section (Type C, Centered)/Container/Editorial Portrait Cards/Article - Card 2: Tomasz/Background",
+        "Page 1/1920w light/Team Section (Type C, Centered)/Container/Editorial Portrait Cards/Article - Card 3: Anna/Background"
+      ]
+    },
+    {
+      "hex": "#F0BF6D",
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Container/★",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/★★★★★",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/★★★★☆",
+        "Page 1/1920w light/Main/Section - Hero Banner/Container/Container/Container/ZESTAW PODARUNKOWY"
+      ]
+    },
+    {
+      "hex": "#DADAD7",
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Left Image Column/Background+Border+Shadow",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 1/Background",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 2/Background",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Button",
+        "Page 1/1920w light/Main Content/Two-Column Layout/RIGHT: Contact Info Panel (42%)/Card C: Social & Address/Address/TeaShop ul. Floriańska 12/4 31-021 Kraków, Polska"
+      ]
+    },
+    {
+      "hex": "#032416cc",
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Footer Component (From JSON)/Container/Brand Logo / Copyright/Container/© 2024 TeaShop. Wszelkie prawa zastrzeżone.",
+        "Page 1/1920w light/Footer Component (From JSON)/Container/Links Column/Link/Sklep",
+        "Page 1/1920w light/Footer Component (From JSON)/Container/Links Column/Link:margin/Link/Koszyk",
+        "Page 1/1920w light/Footer Component (From JSON)/Container/Links Column/Link:margin/Link/O nas",
+        "Page 1/1920w light/Footer Component (From JSON)/Container/Links Column/Link:margin/Link/Kontakt"
+      ]
+    },
+    {
+      "hex": "#FAF7F0cc",
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Stats Bar/Container/Container/Container/Odmian botanicznych",
+        "Page 1/1920w light/Main/Section - Stats Bar/Container/VerticalBorder/Container/Regionów pochodzenia",
+        "Page 1/1920w light/Main/Section - Stats Bar/Container/VerticalBorder/Container/Ocena koneserów",
+        "Page 1/1920w light/Main/Hero Section/Container/Container/Wierzymy w powrót do korzeni, gdzie każdy gest ma znaczenie, a proces parzenia herbaty jest formą medytacji i szacunku do natury.",
+        "Page 1/1920w light/Section - Final CTA Banner (Type A)/Container/Margin/Container/Pozwól nam pomóc Ci odkryć smaki, które rezonują z Twoim rytmem. Odkryj naszą starannie wyselekcjonowaną kolekcję lub znajdź swoją idealną mieszankę."
+      ]
+    },
+    {
+      "hex": "#FFFFFFcc",
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Odpowiedz na kilka prostych pytań o swoje preferencje i rytuały, a my dopasujemy idealną kompozycję do Twojego nastroju.",
+        "Page 1/1920w light/Main Content/Section - Featured Popular Products:margin/Section - Featured Popular Products/Container/Article - Product Card 1/Background/Button - Dodaj do ulubionych",
+        "Page 1/1920w light/Main Content/Section - Featured Popular Products:margin/Section - Featured Popular Products/Container/Article - Product Card 2/Background/Button - Dodaj do ulubionych",
+        "Page 1/1920w light/Main Content/Section - Featured Popular Products:margin/Section - Featured Popular Products/Container/Article - Product Card 3/Background/Button - Dodaj do ulubionych"
+      ]
+    },
+    {
+      "hex": "#FAF9F6cc",
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Header - TopNavBar",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Background/Container/Button",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Background/Container/Button",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Background/Container/Button"
+      ]
+    },
+    {
+      "hex": "#456553",
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Sets Grid/Article - Card 1/Container/Container/Background",
+        "Page 1/1920w light/Main Content/Two-Column Layout/RIGHT: Contact Info Panel (42%)/Card C: Social & Address/Container/Link"
+      ]
+    },
+    {
+      "hex": "#FFFFFF80",
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Button"
+      ]
+    },
+    {
+      "hex": "#1A3A2A80",
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Overlay+Border"
+      ]
+    },
+    {
+      "hex": "#03241680",
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Container/Overlay+Border"
+      ]
+    },
+    {
+      "hex": "#C1C8C2",
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main Content Area/Pull Quote Section (Type C, dark green)/Container/Margin/Container/Horizontal Divider",
+        "Page 1/1920w light/Main Content Area/Pull Quote Section (Type C, dark green)/Container/Margin/Container/Container/Założyciel, Teashop"
+      ]
+    },
+    {
+      "hex": "#C7EBD4",
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Hero Zone/Container/Margin/Container/Icon/Vector",
+        "Page 1/1920w light/Main/Section - Hero Zone/Container/Border/Container/Numer zamówienia: #TS-1716900123"
+      ]
+    },
+    {
+      "hex": "#C1C8C24d",
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Stats Bar/Container/VerticalBorder"
+      ]
+    },
+    {
+      "hex": "#FFFFFF01",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card B (SELECTED)/Button - Card B (SELECTED):shadow"
+      ]
+    },
+    {
+      "hex": "#FFFFFF1a",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Overlay+Border+OverlayBlur"
+      ]
+    },
+    {
+      "hex": "#EEE8DC33",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Overlay+Border+OverlayBlur"
+      ]
+    },
+    {
+      "hex": "#FFCC7A",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Overlay+Border+OverlayBlur/Container/Icon/Vector"
+      ]
+    },
+    {
+      "hex": "#E8E8E5",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Sets Grid/Article - Card 4/Container/Container/Background+Border"
+      ]
+    },
+    {
+      "hex": "#F1F1EE",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Personalization Banner/Container/Pozwól nam pomóc Ci wybrać idealny zestaw. Odpowiedz na kilka krótkich pytań, a my dopasujemy kompozycję do Twoich zmysłów."
+      ]
+    },
+    {
+      "hex": "#FAF9F61a",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Hero Banner/Container/Container/Overlay+Border+OverlayBlur"
+      ]
+    },
+    {
+      "hex": "#F0BF6D4d",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Hero Banner/Container/Container/Overlay+Border+OverlayBlur"
+      ]
+    },
+    {
+      "hex": "#C4974A1a",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Container/Overlay+Border"
+      ]
+    },
+    {
+      "hex": "#C4974A4d",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Container/Overlay+Border"
+      ]
+    },
+    {
+      "hex": "#1A3A2A66",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Hero Section/Container/Overlay"
+      ]
+    },
+    {
+      "hex": "#1A1C1A",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Content/Two-Column Layout/LEFT: Contact Form Card (58%)/Form/Topic Selector/Container/Button/Zamówienie"
+      ]
+    },
+    {
+      "hex": "#2563EB",
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Content/Two-Column Layout/LEFT: Contact Form Card (58%)/Form/GDPR & Submit/Input:margin/Input"
+      ]
+    }
+  ],
+  "texts": [
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 1.2000000476837158,
+      "count": 122,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/NOWA KOLEKCJA WIOSNA 2025",
+        "Page 1/1920w light/Main Content/Container/Header Section/Container/QUIZ NASTROJU",
+        "Page 1/1920w light/Main Content Canvas/Progress Indicator:margin/Progress Indicator/Container/KROK 2 Z 3",
+        "Page 1/1920w light/Main Content Canvas/Question Block:margin/Question Block/Container/PREFERENCJE SMAKOWE",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Question Block/Container/Ostatni krok"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 25.600000381469727,
+      "letterSpacing": 0,
+      "count": 89,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Odkryj botaniczne kompozycje tworzone z myślą o uważności. Ręcznie zbierane liście, naturalne olejki i filozofia powolnego życia w każdej filiżance.",
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Odpowiedz na kilka prostych pytań o swoje preferencje i rytuały, a my dopasujemy idealną kompozycję do Twojego nastroju.",
+        "Page 1/1920w light/Main Content/Container/Header Section/Container/Odpowiedz na 3 krótkie pytania, a my dopasujemy herbatę, która idealnie dopełni Twój dzisiejszy nastrój i pomoże Ci odnaleźć równowagę.",
+        "Page 1/1920w light/Main Content Canvas/Question Block:margin/Question Block/Container/Twoja odpowiedź pomoże nam dobrać herbatę, która idealnie wpisze się w Twoje codzienne rytuały.",
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Question Header:margin/Question Header/Container/Twój nastrój pomaga nam zrozumieć, która kompozycja sensoryczna najlepiej odpowie na Twoje obecne potrzeby."
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 71,
+      "samples": [
+        "Page 1/1920w light/Footer Component (From JSON)/Container/Brand Logo / Copyright/Container/© 2024 TeaShop. Wszelkie prawa zastrzeżone.",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 1: Inpost/Container/Container/Container/Dostawa w 1-2 dni robocze",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 2: DPD (Selected)/Container/Container/Container/Dostawa na jutro",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 3: Odbiór osobisty/Container/Container/Container/Warszawa, ul. Zielona 4",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Container/182,05 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "count": 58,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Zrób krótki quiz i znajdź swój smak.",
+        "Page 1/1920w light/Main/Section/Container/Container/Link/Zobacz wszystkie herbaty",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Margin/Container/3 pytania",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Margin/Container/30 sekund",
+        "Page 1/1920w light/Main Content/Container/Features/Container/Margin/Container/Precyzyjny wynik"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 600,
+      "fontSize": 26,
+      "lineHeightPx": 33.79999923706055,
+      "letterSpacing": 0,
+      "count": 55,
+      "samples": [
+        "Page 1/1920w light/Header - TopNavBar/Container/Container/TeaShop",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Heading 3/Mogą Ci się spodobać",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Heading 3/Twoje zamówienie",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Heading 3/Metoda dostawy",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Heading 3/Podsumowanie"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 700,
+      "fontSize": 42,
+      "lineHeightPx": 50.400001525878906,
+      "letterSpacing": 0,
+      "count": 26,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Heading 2/Odkryj kategorie",
+        "Page 1/1920w light/Main/Section/Container/Container/Heading 2/Bestsellery",
+        "Page 1/1920w light/Main/Section/Container/Heading 2:margin/Heading 2/Nie wiesz, którą herbatę wybrać?",
+        "Page 1/1920w light/Main/Section/Container/Heading 2/Nowości",
+        "Page 1/1920w light/Main Content Canvas/Question Block:margin/Question Block/Heading 1/Który profil smakowy lubisz najbardziej?"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 13,
+      "lineHeightPx": 19.5,
+      "letterSpacing": 0,
+      "count": 15,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Link/Margin/Container/Zobacz kolekcję",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/★★★★★",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Container/Kwiat wiśni, morska bryza, trawa",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Container/Bergamotka, cytrusy, głęboki dąb",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/★★★★☆"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "count": 15,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Margin/Container/Container/Container/Options/Container/Polska",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Cart Items/Item 1/Container/Margin/Container/Button/-",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Cart Items/Item 1/Container/Margin/Container/Button/+",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Cart Items/Item 2/Container/Margin/Container/Button/-",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Cart Items/Item 2/Container/Margin/Container/Button/+"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0.9599999785423279,
+      "count": 14,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Link/ODKRYJ KOLEKCJĘ",
+        "Page 1/1920w light/Main/Section/Container/Container/Link/ZRÓB QUIZ",
+        "Page 1/1920w light/Main/Section/Container/Container/Link/ZRÓB QUIZ ",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Button - Disabled CTA:margin/Button - Disabled CTA/Kontynuuj",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Terms & Submit:margin/Terms & Submit/Button/ZŁÓŻ ZAMÓWIENIE — 201,95 ZŁ"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeightPx": 25.600000381469727,
+      "letterSpacing": 0,
+      "count": 14,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/HorizontalBorder/Container/65,00 zł",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/HorizontalBorder/Container/55,00 zł",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/HorizontalBorder/Container/89,00 zł",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Container/Heading 4/Ceremonial Matcha",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Container/Heading 4/Spokojny Sen"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 14,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "count": 14,
+      "samples": [
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 1/Container/Margin/Container/Container/55 PLN",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 2/Container/Margin/Container/Container/120 PLN",
+        "Page 1/1920w light/Main/Section - Feature Strip/Background+Border+Shadow/Heading 3 → Eleganckie opakowanie",
+        "Page 1/1920w light/Main/Section - Feature Strip/Background+Border+Shadow/Heading 3 → Kuratowana selekcja",
+        "Page 1/1920w light/Main/Section - Feature Strip/Background+Border+Shadow/Heading 3 → Darmowa dostawa"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 15,
+      "letterSpacing": 0,
+      "count": 12,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Background/ZIELONA",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Background/CZARNA",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Background/BIAŁA",
+        "Page 1/1920w light/Main - Product Detail Block/RIGHT: Product Info (approx 48% -> 6 cols in 12 grid)/Margin/Container/Container/Border/TRAWIASTA",
+        "Page 1/1920w light/Main - Product Detail Block/RIGHT: Product Info (approx 48% -> 6 cols in 12 grid)/Margin/Container/Container/Border/UMAMI"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 14,
+      "letterSpacing": 0.699999988079071,
+      "count": 12,
+      "samples": [
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/Strona główna",
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/Sklep",
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/Quiz nastroju",
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/Zestawy",
+        "Page 1/1920w light/Header - TopNavBar/Container/Nav/Link/o nas"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 19.363636016845703,
+      "letterSpacing": 0,
+      "count": 12,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Imi/Input/Container/Jan",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Nazwisko/Input/Container/Kowalski",
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Form Section/Form/Telefon/Input/Container/+48 000 000 000",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Container/Container/Input/Container/Jan",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Form Fields/Container/Container/Input/Container/Kowalski"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 800,
+      "fontSize": 72,
+      "lineHeightPx": 79.19999694824219,
+      "letterSpacing": -1.440000057220459,
+      "count": 10,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Heading 1:margin/Heading 1 → Herbata,\nktóra pasuje\ndo Twojego\nnastroju.",
+        "Page 1/1920w light/Main Content/Container/Header Section/Heading 1/Znajdź swoją idealną herbatę",
+        "Page 1/1920w light/Section - HERO ZONE/Container/Heading 1:margin/Heading 1/Sencha Uji",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Header & Controls/Container/Heading 1/Wszystkie herbaty",
+        "Page 1/1920w light/Main/Section - Page Header/Container/Heading 1/Zestawy podarunkowe"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "lineHeightPx": 25.600000381469727,
+      "letterSpacing": 0,
+      "count": 10,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 1: Inpost/Container/Container/Container/Paczkomat InPost",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 1: Inpost/Container/14,90 zł",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 2: DPD (Selected)/Container/Container/Container/Kurier DPD",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 2: DPD (Selected)/Container/19,90 zł",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Left Column: Form (63%)/Delivery Options/Container/Label - Option 3: Odbiór osobisty/Container/Container/Container/Odbiór osobisty"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0.6000000238418579,
+      "count": 8,
+      "samples": [
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Progress Indicator/Container/Krok 3 z 3",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Categories/Heading 3/Kategorie",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Flavor Profile/Heading 3/Profil Smakowy",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Price Range/Heading 3/Cena",
+        "Page 1/1920w light/Main/Section - Page Header/Container/WYJĄTKOWE KOMPOZYCJE"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 8,
+      "samples": [
+        "Page 1/1920w light/Main/Nav - Breadcrumb → Ordered List/Item/Zestawy podarunkowe",
+        "Page 1/1920w light/Main/Section - Sets Grid/Article - Card 1/Container/Container/Container/Oszczędzasz 32 zł",
+        "Page 1/1920w light/Main/Section - Sets Grid/Article - Card 2/Container/Container/Container/Oszczędzasz 24 zł",
+        "Page 1/1920w light/Main/Section - Sets Grid/Article - Card 3/Container/Container/Container/Oszczędzasz 18 zł",
+        "Page 1/1920w light/Main/Section - Sets Grid/Article - Card 4/Container/Container/Container/Oszczędzasz 28 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0,
+      "count": 7,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/Container/(124)",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/Container/(89)",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/Container/(42)",
+        "Page 1/1920w light/Main/Section/Container/Article/Container/Link/ZOBACZ SZCZEGÓŁY",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/Rumianek, lawenda, melisa"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "count": 6,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Background+Border/Background/1",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Container/Container/Pochodzenie: Uji, Japonia",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Margin/Container/Wypełnij wymagane pola, aby przejść dalej.",
+        "Page 1/1920w light/Main Content:margin/Main Content/Right Column: Order Summary (Sticky)/Background+Border+Shadow/Margin/Container/Z VAT, bez kosztów dostawy jeśli nie podano.",
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 1/Container/Margin/Container/ZESTAW"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 11,
+      "lineHeightPx": 16.5,
+      "letterSpacing": 0.550000011920929,
+      "count": 6,
+      "samples": [
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Container/Margin/Container/Background+Border/Umami",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Container/Margin/Container/Background+Border/Morski",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Container/Margin/Container/Background+Border/Kwiatowy",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Container/Margin/Container/Background+Border/Muszkatel",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Container/Margin/Container/Background+Border/Trawiasty"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 17,
+      "lineHeightPx": 25.5,
+      "letterSpacing": 0,
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Link/Heading 3:margin/Heading 3 → Zielone",
+        "Page 1/1920w light/Main/Section/Container/Link/Heading 3:margin/Heading 3 → Czarne",
+        "Page 1/1920w light/Main/Section/Container/Link/Heading 3:margin/Heading 3 → Oolong",
+        "Page 1/1920w light/Main/Section/Container/Link/Heading 3:margin/Heading 3 → Białe",
+        "Page 1/1920w light/Main/Section/Container/Link/Heading 3:margin/Heading 3 → Ziołowe"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeightPx": 27,
+      "letterSpacing": 0,
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Heading 3:margin/Heading 3/Sencha Sakura",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Heading 3:margin/Heading 3/Earl Grey Imperial",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Heading 3:margin/Heading 3/Silver Needle",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Heading 3:margin/Heading 3/Ziołowy Relaks",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Heading 3:margin/Heading 3/Genmaicha z Matcha"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 22,
+      "lineHeightPx": 33,
+      "letterSpacing": 0,
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Article/Container/Margin/Container/Container/Heading 3/Oolong Wuyi Rock",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Totals/Margin/HorizontalBorder/Container/Suma",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Totals/Margin/HorizontalBorder/Container/227,00 zł",
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 1/Container/Heading 4:margin/Heading 4/Rytuał Wyciszenia",
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 2/Container/Heading 4:margin/Heading 4/Matcha dla Początkujących"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 21,
+      "letterSpacing": 0,
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Article/Container/Margin/Container/Container/Container/Minerały, pieczone orzechy, orchidea",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 1/Container/Container/Container/Klasyczna chińska zielona herbata o płaskich liściach i słodkim, kasztanowym posmaku.",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 2/Container/Container/Container/Szacowna \"Kropla Rosy\". Cieniona przed zbiorami, oferuje głębokie, bogate umami i…",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Container/Container/Ilość: 1",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Container/Container/Ilość: 2"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 16,
+      "lineHeightPx": 25.600000381469727,
+      "letterSpacing": 0,
+      "count": 5,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Container/129,00 zł",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Cart Items/Container/Container/98,00 zł",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Products Read Only/Container/Item 1/Container/Container/Container/Sencha Supreme",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Products Read Only/Container/Item 2/Container/Container/Container/Ceramiczna Czarka",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Products Read Only/Container/Item 3/Container/Container/Container/Płatki Róży"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 12,
+      "lineHeightPx": 18,
+      "letterSpacing": 0.30000001192092896,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Container/★",
+        "Page 1/1920w light/Main/Section/Container/Container/4.8 / 5 — ponad 2 400 opinii",
+        "Page 1/1920w light/Main/Section/Container/Container/Single Origin · Certyfikowane ogrody",
+        "Page 1/1920w light/Main/Section/Container/Container/Darmowa dostawa od 99 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 11,
+      "lineHeightPx": 16.5,
+      "letterSpacing": 1.100000023841858,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/HorizontalBorder/Button/+ DODAJ",
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Znajdź swój profil smakowy"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 15,
+      "letterSpacing": 1,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Article/Background/NOWOŚĆ",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/NOWOŚĆ",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 3/Badge/Background/Bestseller"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeightPx": 14,
+      "letterSpacing": 1.1200000047683716,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Actions:margin/Actions/Button/DODAJ DO KOSZYKA — 45 PLN",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Actions:margin/Actions/Button/CZYTAJ WIĘCEJ",
+        "Page 1/1920w light/Main Content:margin/Main Content/Left Column: Cart Items & Progress/Discount Code/Container/Button/Zastosuj",
+        "Page 1/1920w light/Main Content:margin/Main Content/Right Column: Order Summary (Sticky)/Background+Border+Shadow/Button/Przejdź do płatności"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 15,
+      "lineHeightPx": 22.5,
+      "letterSpacing": 0,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Totals/Container/Container/Suma częściowa",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Totals/Container/Container/227,00 zł",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Totals/Container/Container/Dostawa",
+        "Page 1/1920w light/Main:margin/Main/Container/Aside - Right Column: Order Summary (37%)/Background+Border+Shadow/Totals/Container/Container/Obliczana w kolejnym kroku"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 20,
+      "lineHeightPx": 28,
+      "letterSpacing": 0,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Brewing Calculator Section/Container/Container/Outputs Grid/Background+Border/Container/75-80°C",
+        "Page 1/1920w light/Brewing Calculator Section/Container/Container/Outputs Grid/Background+Border/Container/2-3 min",
+        "Page 1/1920w light/Brewing Calculator Section/Container/Container/Outputs Grid/Background+Border/Container/3.0 g",
+        "Page 1/1920w light/Brewing Calculator Section/Container/Container/Outputs Grid/Background+Border/Container/3x"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 18,
+      "lineHeightPx": 27,
+      "letterSpacing": 0,
+      "count": 4,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 1/Content/HorizontalBorder/Container/89 PLN",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 2/Container/HorizontalBorder/Container/65 PLN",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 3/Container/HorizontalBorder/Container/149 PLN",
+        "Page 1/1920w light/Main:margin/Main/Favorites Grid/Product Card 4/Container/HorizontalBorder/Container/110 PLN"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 10,
+      "lineHeightPx": 15,
+      "letterSpacing": 0.5,
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Overlay+Border/3 PYTANIA",
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Overlay+Border/30 SEKUND",
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Overlay+Border/DARMOWE"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 19.25,
+      "letterSpacing": 0,
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card A (SELECTED)/Container/Container/Dopiero zaczynam swoją przygodę, szukam łagodnych smaków.",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card B/Container/Container/Znam podstawy, lubię eksperymentować z różnymi gatunkami.",
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Vertical Stack of Cards/Label - Card C/Container/Container/Piję herbatę ceremonianlnie, doceniam złożone profile smakowe."
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 18,
+      "lineHeightPx": 27,
+      "letterSpacing": 0,
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Container/Container/Container/145 zł",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Container/Container/Container/180 zł",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Container/Container/Container/85 zł"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 20,
+      "lineHeightPx": 30,
+      "letterSpacing": 0,
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 1/Heading 4:margin/Heading 4/Sencha Uji",
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 2/Heading 4:margin/Heading 4/Gyokuro Asahi",
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 3/Heading 4:margin/Heading 4/Matcha Ceremonialna"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 12.800000190734863,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 3,
+      "samples": [
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 1/Margin/Container/Container/w zestawie",
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 2/Container/Container/w zestawie",
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 3/Margin/Container/Container/w zestawie"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 21,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/Container/45,00 zł",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/Container/Container/70,00 zł"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 600,
+      "fontSize": 20,
+      "lineHeightPx": 30,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 1/Container/Container/Heading 4/Dragon Well Longjing",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 2/Container/Container/Heading 4/Gyokuro Premium"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 700,
+      "fontSize": 32,
+      "lineHeightPx": 38.400001525878906,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Container/Left Column: Form (63%)/Container/Heading 2/Dane osobowe",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Heading 2/Sprawdź swoje zamówienie"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Progress Bar/Step 2: Active/Background/2",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Container/Container/Matcha Ceremonialna 50g"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Brewing Calculator Section/Container/Container/Inputs/Container/Container/Container/200 ml",
+        "Page 1/1920w light/Brewing Calculator Section/Container/Container/Inputs/Container/Container/Container/1"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 13,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 1/Margin/Container/Container/65 zł",
+        "Page 1/1920w light/Main/Components Breakdown Section/Container/Container/Component 2/Container/Container/89 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 15.600000381469727,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 1/Container/Margin/Container/Container/189 zł",
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 2/Container/Margin/Container/Container/210 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 13.100000381469727,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 2,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 1/Container/Margin/Container/Container/Zobacz więcej",
+        "Page 1/1920w light/Main/Section - Related Sets/Container/Link - Related Card 2/Container/Margin/Container/Container/Zobacz więcej"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 0.9599999785423279,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Link/→"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Article/Container/Margin/Container/110,00 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 14,
+      "lineHeightPx": 14,
+      "letterSpacing": 1.1200000047683716,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Content/Container/CTA/Button/Container/ROZPOCZNIJ QUIZ"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 14,
+      "lineHeightPx": 14,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card B (SELECTED)/Cytrusowy i świeży"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 14,
+      "lineHeightPx": 22.75,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Canvas/Quiz Content Container/Info Tip Box/Container/Nie martw się — możesz zawsze zacząć od delikatniejszych naparów i stopniowo odkrywać mocniejsze smaki. Nasz algorytm dobierze herbaty idealne na start."
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 2.4000000953674316,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Section - HERO ZONE/Container/TWÓJ WYNIK"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 12,
+      "lineHeightPx": 12,
+      "letterSpacing": 1.2000000476837158,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/Progress Bar/Step 2: Active/Container/Adres dostawy"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeightPx": 21.784090042114258,
+      "letterSpacing": 9,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Payment Method/BLIK Code Input (conditionally visible)/Input/Container/000 000"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 40,
+      "lineHeightPx": 60,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main - Product Detail Block/RIGHT: Product Info (approx 48% -> 6 cols in 12 grid)/Heading 1:margin/Heading 1/Sencha Uji"
+      ]
+    },
+    {
+      "fontFamily": "Playfair Display",
+      "fontWeight": 400,
+      "fontSize": 32,
+      "lineHeightPx": 48,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Brewing Calculator Section/Container/Heading 2/Kalkulator parzenia"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 24,
+      "letterSpacing": 1.2799999713897705,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main Content: Empty State:margin/Main Content: Empty State/Container/Actions/Button/Wyczyść wszystkie filtry"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 16,
+      "lineHeightPx": 26,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Container/Container/Podróż do serca japońskiej tradycji herbacianej. Starannie wyselekcjonowana kolekcja trzech wyjątkowych herbat, które razem tworzą harmonijną opowieść o smaku, uważności i szacunku do natury. Idealny prezent dla koneserów i tych, którzy pragną zwolnić."
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 13.199999809265137,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Savings Calculator Block:margin/Savings Calculator Block/Container/Container/Container/Wartość: 273 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 600,
+      "fontSize": 12,
+      "lineHeightPx": 16,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Savings Calculator Block:margin/Savings Calculator Block/Container/Background/-9%"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": 13,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Savings Calculator Block:margin/Savings Calculator Block/Container/Oszczędzasz 24 zł kupując w zestawie"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 700,
+      "fontSize": 13,
+      "lineHeightPx": 19.5,
+      "letterSpacing": 1.0399999618530273,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Savings Calculator Block:margin/Savings Calculator Block/Container/Button - CTA/Container/DODAJ DO KOSZYKA"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 13.100000381469727,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Trust Badges:margin/Trust Badges/Container/Container/Darmowa dostawa od 200 zł"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 13.300000190734863,
+      "lineHeightPx": 20,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Main Product Detail/Right: Buy Box (5 cols)/Trust Badges:margin/Trust Badges/Container/Container/Ekologiczne opakowanie"
+      ]
+    },
+    {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": 18,
+      "lineHeightPx": 28,
+      "letterSpacing": 0,
+      "count": 1,
+      "samples": [
+        "Page 1/1920w light/Main/Mission Section/Container/Container/Naszą misją jest dostarczanie herbat, które powstają z poszanowaniem ziemi i rąk, które je zbierają. Odrzucamy masową produkcję na rzecz limitowanych zbiorów z małych, rzemieślniczych plantacji. Każdy liść to opowieść o terroir, klimacie i ludzkiej pasji."
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "count": 58,
+      "layers": [
+        {
+          "type": "DROP_SHADOW",
+          "radius": 8,
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "color": "#0000000d"
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card B (SELECTED)",
+        "Page 1/1920w light/Footer - Bottom Nav (Quiz Specific)/Button",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Left Image Column/Background+Border+Shadow",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 1: Recommendation #1/Right Details Column/Brewing Parameters:margin/Brewing Parameters",
+        "Page 1/1920w light/Main - CONTENT ZONE/Block 2: Alternatives/Container/Alternative Card 1"
+      ]
+    },
+    {
+      "count": 8,
+      "layers": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "radius": 4,
+          "color": null
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Button",
+        "Page 1/1920w light/Section - HERO ZONE/Container/Margin/Overlay+Border+OverlayBlur",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 1/Background/Container/Button",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 2/Background/Container/Button",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Section - Right Content/Product Grid/Article - Product Card 3 (Placeholder for layout demonstration)/Background/Container/Button"
+      ]
+    },
+    {
+      "count": 3,
+      "layers": [
+        {
+          "type": "DROP_SHADOW",
+          "radius": 8,
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "color": "#00000005"
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card A",
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card C",
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card D"
+      ]
+    },
+    {
+      "count": 3,
+      "layers": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "radius": 8,
+          "color": null
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Main Content/Section - Featured Popular Products:margin/Section - Featured Popular Products/Container/Article - Product Card 1/Background/Button - Dodaj do ulubionych",
+        "Page 1/1920w light/Main Content/Section - Featured Popular Products:margin/Section - Featured Popular Products/Container/Article - Product Card 2/Background/Button - Dodaj do ulubionych",
+        "Page 1/1920w light/Main Content/Section - Featured Popular Products:margin/Section - Featured Popular Products/Container/Article - Product Card 3/Background/Button - Dodaj do ulubionych"
+      ]
+    },
+    {
+      "count": 1,
+      "layers": [
+        {
+          "type": "BACKGROUND_BLUR",
+          "radius": 12,
+          "color": null
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Header - TopNavBar"
+      ]
+    },
+    {
+      "count": 1,
+      "layers": [
+        {
+          "type": "DROP_SHADOW",
+          "radius": 8,
+          "offset": {
+            "x": 0,
+            "y": 2
+          },
+          "color": "#00000005"
+        },
+        {
+          "type": "DROP_SHADOW",
+          "radius": 0,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 3,
+          "color": "#1A3A2A"
+        },
+        {
+          "type": "DROP_SHADOW",
+          "radius": 0,
+          "offset": {
+            "x": 0,
+            "y": 0
+          },
+          "spread": 2,
+          "color": "#F5F2EC"
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Main Content Canvas/Quiz Container/Selection Grid/Button - Card B (SELECTED)/Button - Card B (SELECTED):shadow"
+      ]
+    },
+    {
+      "count": 1,
+      "layers": [
+        {
+          "type": "DROP_SHADOW",
+          "radius": 50,
+          "offset": {
+            "x": 0,
+            "y": 25
+          },
+          "spread": -12,
+          "color": "#00000040"
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Main/Section - Hero Banner/Container/Container/Premium gift box product photo"
+      ]
+    },
+    {
+      "count": 1,
+      "layers": [
+        {
+          "type": "DROP_SHADOW",
+          "radius": 2,
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "color": "#0000000d"
+        }
+      ],
+      "samples": [
+        "Page 1/1920w light/Section - Final CTA Banner (Type A)/Container/Container/Link - Primary CTA (Inverted for dark bg)"
+      ]
+    }
+  ],
+  "radii": [
+    {
+      "radius": 12,
+      "count": 130,
+      "samples": [
+        "Page 1/1920w light/Main/Section/Container/Container/Link",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Background",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Background/Button",
+        "Page 1/1920w light/Main/Section/Container/Container/Article/Container/Margin/HorizontalBorder/Button",
+        "Page 1/1920w light/Main/Section/Container/Margin/Container/Overlay+Border"
+      ]
+    },
+    {
+      "radius": 2,
+      "count": 47,
+      "samples": [
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Background+Border",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Grid/Right Column: Sticky Summary (37%)/Background+Border+Shadow/Cart Items Preview (Simplified)/Background+Border/Ceramiczna miseczka na matchę w stylu wabi-sabi, szorstka tekstura, zielone szkliwo wewnątrz.",
+        "Page 1/1920w light/Main:margin/Main/63/37 Layout Split/Left Column: Details/Terms & Submit:margin/Terms & Submit/Label/Input:margin/Input",
+        "Page 1/1920w light/Main Content: Empty State:margin/Main Content: Empty State/Container/Actions/Button",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Price Range/Container/Input/Background"
+      ]
+    },
+    {
+      "radius": 4,
+      "count": 28,
+      "samples": [
+        "Page 1/1920w light/Main/Section",
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card A",
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card C",
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card D",
+        "Page 1/1920w light/Main Content Canvas/Selection Grid/Button - Card B (SELECTED)"
+      ]
+    },
+    {
+      "radius": 8,
+      "count": 8,
+      "samples": [
+        "Page 1/1920w light/Main/Section - Content Zone/Order Details Card",
+        "Page 1/1920w light/Main/Section - Content Zone/Delivery Info Card",
+        "Page 1/1920w light/Main/Section - Content Zone/Next Steps/Container/Background+Border",
+        "Page 1/1920w light/Main/Section - Content Zone/Cross-sell:margin/Cross-sell/Container/Link/Background+Border",
+        "Page 1/1920w light/Main Content:margin/Main Content/Container/Aside - Left Sidebar/Price Range/Container/Input/Background/Background"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+.head {
+  padding-block: var(--space-7) var(--space-5);
+}
+
+.title {
+  font-size: var(--text-h1-size);
+  line-height: var(--text-h1-lh);
+  font-weight: var(--text-h1-weight);
+  color: var(--color-brand-ink);
+}
+
+.quizCta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-top: var(--space-3);
+  font-size: var(--text-meta-size);
+  color: var(--color-text-muted);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-6);
+  padding-bottom: var(--space-8);
+}
+
+.sidebar {
+  display: none;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+
+.filterToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 40px;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-bg-canvas);
+  color: var(--color-text-body);
+  font-size: var(--text-meta-size);
+}
+
+.count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: var(--radius-pill);
+  background: var(--color-brand-green);
+  color: var(--color-text-on-brand);
+  font-size: 10px;
+}
+
+.results {
+  font-size: var(--text-meta-size);
+  color: var(--color-text-muted);
+}
+
+.sortLabel {
+  margin-left: auto;
+}
+
+.sort {
+  height: 40px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-bg-canvas);
+  font-family: var(--font-body);
+  font-size: var(--text-meta-size);
+  color: var(--color-text-body);
+}
+
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  justify-content: center;
+  margin-top: var(--space-7);
+}
+
+.page,
+.pageActive {
+  min-width: 40px;
+  height: 40px;
+  padding: 0 var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-bg-canvas);
+  color: var(--color-text-body);
+  font-size: var(--text-meta-size);
+}
+
+.pageActive {
+  background: var(--color-brand-green);
+  border-color: var(--color-brand-green);
+  color: var(--color-text-on-brand);
+}
+
+/* ─── Mobile filter drawer ──────────────────────────────── */
+.drawerBackdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1100;
+  background: rgba(3, 36, 22, 0.45);
+}
+
+.drawer {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: min(360px, 90vw);
+  height: 100%;
+  padding: var(--space-5);
+  background: var(--color-bg-canvas);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.drawerHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drawerTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-h4-size);
+  color: var(--color-brand-ink);
+}
+
+.drawerClose {
+  display: inline-flex;
+  border: none;
+  background: none;
+  color: var(--color-brand-ink);
+}
+
+@media (min-width: 1024px) {
+  .layout {
+    grid-template-columns: 280px 1fr;
+  }
+  .sidebar {
+    display: block;
+  }
+  .filterToggle {
+    display: none;
+  }
+}

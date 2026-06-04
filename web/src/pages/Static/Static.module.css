@@ -1,0 +1,109 @@
+.page {
+  max-width: 760px;
+  margin-inline: auto;
+  padding-block: var(--space-8);
+}
+
+.eyebrow {
+  font-size: var(--text-eyebrow-size);
+  font-weight: var(--text-eyebrow-weight);
+  letter-spacing: var(--text-eyebrow-ls);
+  text-transform: uppercase;
+  color: var(--color-brand-green);
+  margin-bottom: var(--space-3);
+}
+
+.title {
+  font-size: var(--text-h1-size);
+  line-height: var(--text-h1-lh);
+  font-weight: var(--text-h1-weight);
+  color: var(--color-brand-ink);
+  margin-bottom: var(--space-5);
+}
+
+.lead {
+  font-size: var(--text-body-lead-size);
+  line-height: var(--text-body-lead-lh);
+  color: var(--color-text-body);
+  margin-bottom: var(--space-5);
+}
+
+.h2 {
+  font-size: var(--text-h3-size);
+  line-height: var(--text-h3-lh);
+  font-weight: var(--text-h3-weight);
+  color: var(--color-brand-ink);
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+}
+
+.body {
+  font-size: var(--text-body-lead-size);
+  line-height: var(--text-body-lead-lh);
+  color: var(--color-text-body);
+  margin-bottom: var(--space-4);
+}
+
+.values {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  margin-top: var(--space-4);
+}
+
+.value {
+  padding: var(--space-4);
+  background: var(--color-bg-canvas);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.valueTitle {
+  font-family: var(--font-display);
+  font-size: var(--text-h4-size);
+  color: var(--color-brand-ink);
+  margin-bottom: var(--space-2);
+}
+
+.ctaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+/* ─── Contact form ──────────────────────────────────────── */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  margin-top: var(--space-5);
+}
+
+.textarea {
+  min-height: 140px;
+  padding: var(--space-3) var(--space-4);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  font-family: var(--font-body);
+  font-size: var(--text-input-size);
+  color: var(--color-text-body);
+  resize: vertical;
+}
+
+.contactInfo {
+  margin-top: var(--space-6);
+  padding: var(--space-5);
+  background: var(--color-bg-sidebar);
+  border-radius: var(--radius-lg);
+  font-size: var(--text-meta-size);
+  line-height: 1.8;
+  color: var(--color-text-body);
+}
+
+@media (min-width: 600px) {
+  .values {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

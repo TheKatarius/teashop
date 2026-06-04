@@ -1,0 +1,38 @@
+# Env
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+web/dist/
+web/.vite/
+api/**/bin/
+api/**/obj/
+
+# Test / coverage
+coverage/
+*.lcov
+.nyc_output/
+playwright-report/
+test-results/
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.suo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Figma cache (raw API dumps; keep curated tokens in design.md)
+docs/figma/raw.json
+docs/figma/styles.json
+docs/figma/tokens.draft.css
