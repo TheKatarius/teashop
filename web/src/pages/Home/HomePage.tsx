@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { CATEGORY_META } from '@/features/catalog/categoryMeta';
 import { useProducts } from '@/features/catalog/api';
@@ -64,7 +65,7 @@ export function HomePage() {
               </div>
             </div>
             <div className={styles.heroArt} aria-hidden>
-              🍵
+              <Leaf className={styles.heroArtIcon} />
             </div>
           </div>
         </div>
@@ -76,9 +77,7 @@ export function HomePage() {
           {CATEGORY_META.map((c) => (
             <li key={c.slug}>
               <Link to={`/sklep/${c.slug}`} className={styles.categoryTile}>
-                <span className={styles.categoryEmoji} aria-hidden>
-                  {c.emoji}
-                </span>
+                <c.Icon className={styles.categoryIcon} size={40} aria-hidden />
                 <span className={styles.categoryName}>{c.name}</span>
               </Link>
             </li>

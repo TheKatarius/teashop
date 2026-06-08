@@ -78,7 +78,12 @@ section {
   background: var(--color-bg-cool-cream);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow-hero);
-  font-size: 120px;
+}
+
+.heroArtIcon {
+  width: 120px;
+  height: 120px;
+  color: var(--color-brand-green);
 }
 
 /* ─── Categories ────────────────────────────────────────── */
@@ -105,9 +110,8 @@ section {
   text-decoration: none;
 }
 
-.categoryEmoji {
-  font-size: 40px;
-  line-height: 1;
+.categoryIcon {
+  color: var(--color-brand-green);
 }
 
 .categoryName {

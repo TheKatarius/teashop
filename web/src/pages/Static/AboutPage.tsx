@@ -1,3 +1,4 @@
+import { Handshake, Leaf, Sprout } from 'lucide-react';
 import { Button } from '@/components/Button/Button';
 import styles from './Static.module.css';
 
@@ -22,15 +23,21 @@ export function AboutPage() {
         <h2 className={styles.h2}>Wartości</h2>
         <div className={styles.values}>
           <div className={styles.value}>
-            <p className={styles.valueTitle}>🌱 Pochodzenie</p>
+            <p className={styles.valueTitle}>
+              <Sprout size={18} aria-hidden /> Pochodzenie
+            </p>
             <p>Współpracujemy bezpośrednio z plantacjami i znamy historię każdej herbaty.</p>
           </div>
           <div className={styles.value}>
-            <p className={styles.valueTitle}>🤝 Uczciwość</p>
+            <p className={styles.valueTitle}>
+              <Handshake size={18} aria-hidden /> Uczciwość
+            </p>
             <p>Jasne opisy, realne zdjęcia i przejrzyste ceny za 100 g.</p>
           </div>
           <div className={styles.value}>
-            <p className={styles.valueTitle}>🍵 Rzemiosło</p>
+            <p className={styles.valueTitle}>
+              <Leaf size={18} aria-hidden /> Rzemiosło
+            </p>
             <p>Małe partie, świeże zbiory i szacunek dla tradycji parzenia.</p>
           </div>
         </div>

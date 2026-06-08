@@ -14,6 +14,10 @@
 }
 
 .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
   font-size: var(--text-h1-size);
   line-height: var(--text-h1-lh);
   font-weight: var(--text-h1-weight);
@@ -29,6 +33,9 @@
 }
 
 .moodTag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
   padding: var(--space-1) var(--space-4);
   border-radius: var(--radius-pill);
   background: var(--color-mint-overlay-30);
@@ -85,6 +92,9 @@
   text-align: center;
   font-size: var(--text-meta-size);
   color: var(--color-text-muted);
+}
+.save svg {
+  vertical-align: -0.15em;
 }
 
 @media (min-width: 600px) {

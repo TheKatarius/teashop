@@ -1,4 +1,4 @@
-import { categoryEmoji } from '@/features/catalog/categoryMeta';
+import { categoriesBySlug } from '@/features/catalog/categoryMeta';
 import { cn } from '@/lib/cn';
 import styles from './ProductThumb.module.css';
 
@@ -13,9 +13,10 @@ interface ProductThumbProps {
  * Stands in for CDN photography (P-04) until real assets land.
  */
 export function ProductThumb({ categorySlug, name, className }: ProductThumbProps) {
+  const { Icon } = categoriesBySlug[categorySlug] ?? categoriesBySlug.zielona;
   return (
     <div className={cn(styles.thumb, className)} role="img" aria-label={name}>
-      <span aria-hidden>{categoryEmoji(categorySlug)}</span>
+      <Icon className={styles.glyph} aria-hidden />
     </div>
   );
 }

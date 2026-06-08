@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Heart, Menu, Search, ShoppingCart, User } from 'lucide-react';
+import { Heart, Leaf, Menu, Search, ShoppingCart, User } from 'lucide-react';
 import { Link, NavLink } from 'react-router-dom';
 import { CATEGORY_META } from '@/features/catalog/categoryMeta';
 import { selectCount, useCartStore } from '@/features/cart/store';
@@ -34,7 +34,7 @@ export function Header() {
         </button>
 
         <Link to="/" className={styles.brand}>
-          🍵 TeaShop
+          <Leaf size={20} aria-hidden /> TeaShop
         </Link>
 
         <nav className={styles.nav} aria-label="Główna nawigacja">
@@ -45,7 +45,7 @@ export function Header() {
             <div className={styles.dropdown}>
               {CATEGORY_META.map((c) => (
                 <Link key={c.slug} to={`/sklep/${c.slug}`} className={styles.dropdownItem}>
-                  <span aria-hidden>{c.emoji}</span> {c.name}
+                  <c.Icon size={16} aria-hidden /> {c.name}
                 </Link>
               ))}
               <Link to="/sklep" className={cn(styles.dropdownItem, styles.dropdownAll)}>

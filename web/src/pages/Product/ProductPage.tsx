@@ -1,5 +1,18 @@
 import { useState } from 'react';
-import { Clock, Droplets, Flame, Heart, RefreshCw, ShoppingCart } from 'lucide-react';
+import {
+  Clock,
+  Coffee,
+  Droplets,
+  FileText,
+  Flame,
+  Handshake,
+  Heart,
+  Leaf,
+  MessageCircle,
+  RefreshCw,
+  ShoppingCart,
+  Tag,
+} from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import type { CaffeineLevel, Product } from '@/types';
 import { categoryName } from '@/features/catalog/categoryMeta';
@@ -143,7 +156,7 @@ export function ProductPage() {
     return (
       <div className="container">
         <EmptyState
-          icon="🍵"
+          icon={<Leaf size={48} />}
           title="Nie znaleźliśmy tej herbaty"
           description="Mogła zostać przeniesiona lub wyprzedana."
           actions={<Button to="/sklep">Wróć do sklepu</Button>}
@@ -193,7 +206,7 @@ export function ProductPage() {
 
       <section className={styles.section} aria-labelledby="brewing-heading">
         <h2 id="brewing-heading" className={styles.sectionTitle}>
-          ☕ Parzenie
+          <Coffee size={20} aria-hidden /> Parzenie
         </h2>
         <div className={styles.brewing}>
           <div className={styles.brewTile}>
@@ -224,14 +237,18 @@ export function ProductPage() {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>📝 Opis</h2>
+        <h2 className={styles.sectionTitle}>
+          <FileText size={20} aria-hidden /> Opis
+        </h2>
         <p className={styles.body}>{product.descriptionLong}</p>
         <p className={styles.origin}>Pochodzenie: {product.origin}</p>
       </section>
 
       <div className={styles.metaGrid}>
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>🏷️ Profil smakowy</h2>
+          <h2 className={styles.sectionTitle}>
+            <Tag size={20} aria-hidden /> Profil smakowy
+          </h2>
           <div className={styles.flavors}>
             {product.flavorTags.map((f) => (
               <Badge key={f} variant="flavor">
@@ -242,14 +259,16 @@ export function ProductPage() {
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>☕ Kofeina</h2>
+          <h2 className={styles.sectionTitle}>
+            <Coffee size={20} aria-hidden /> Kofeina
+          </h2>
           <CaffeineScale level={product.caffeine} />
         </section>
       </div>
 
       <section className={styles.section} aria-labelledby="reviews-heading">
         <h2 id="reviews-heading" className={styles.sectionTitle}>
-          💬 Recenzje ({product.reviewsCount})
+          <MessageCircle size={20} aria-hidden /> Recenzje ({product.reviewsCount})
         </h2>
         <ul className={styles.reviews}>
           {(reviews.data ?? []).map((r) => (
@@ -265,7 +284,9 @@ export function ProductPage() {
       </section>
 
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>🤝 Pasuje do</h2>
+        <h2 className={styles.sectionTitle}>
+          <Handshake size={20} aria-hidden /> Pasuje do
+        </h2>
         <ProductGrid products={related.data ?? []} loading={related.isLoading} skeletonCount={3} />
       </section>
     </article>

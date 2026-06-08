@@ -1,3 +1,4 @@
+import { Leaf } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/cn';
 import styles from './Footer.module.css';
@@ -34,7 +35,9 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={cn('container', styles.inner)}>
         <div className={styles.brandCol}>
-          <span className={styles.brand}>🍵 TeaShop</span>
+          <span className={styles.brand}>
+            <Leaf size={18} aria-hidden /> TeaShop
+          </span>
           <p className={styles.tagline}>Herbata dopasowana do Twojego nastroju.</p>
         </div>
 

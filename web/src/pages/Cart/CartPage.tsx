@@ -1,4 +1,4 @@
-import { Trash2 } from 'lucide-react';
+import { ShoppingCart, Trash2 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import type { CartItem } from '@/types';
 import { Button } from '@/components/Button/Button';
@@ -44,7 +44,7 @@ export function CartPage() {
     return (
       <div className="container">
         <EmptyState
-          icon="🛒"
+          icon={<ShoppingCart size={48} />}
           title="Twój koszyk jest pusty"
           description="Dobierz herbatę do nastroju albo przejrzyj nasze bestsellery."
           actions={

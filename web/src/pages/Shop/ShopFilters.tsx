@@ -44,7 +44,7 @@ export function ShopFilters({ category, controller }: ShopFiltersProps) {
           {CATEGORY_META.map((c) => (
             <Link key={c.slug} to={`/sklep/${c.slug}`} className={styles.catLink}>
               <FilterChip selected={category === c.slug} onClick={() => undefined}>
-                {c.emoji} {c.name}
+                <c.Icon size={14} aria-hidden /> {c.name}
               </FilterChip>
             </Link>
           ))}
@@ -60,7 +60,7 @@ export function ShopFilters({ category, controller }: ShopFiltersProps) {
               selected={filters.moods.includes(m.slug)}
               onClick={() => toggleMulti('mood', m.slug)}
             >
-              {m.emoji} {m.name}
+              <m.Icon size={14} aria-hidden /> {m.name}
             </FilterChip>
           ))}
         </div>

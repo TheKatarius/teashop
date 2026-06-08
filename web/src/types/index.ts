@@ -58,14 +58,12 @@ export interface Category {
   id: string;
   name: string;
   slug: string;
-  emoji: string;
 }
 
 export interface MoodTag {
   id: string;
   slug: string;
   name: string;
-  emoji: string;
   /** CSS custom property name from tokens.css, e.g. '--color-mint' */
   colorToken: string;
 }

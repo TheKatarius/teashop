@@ -18,14 +18,12 @@ export const categories: Category[] = CATEGORY_META.map((c) => ({
   id: `cat-${c.slug}`,
   name: c.name,
   slug: c.slug,
-  emoji: c.emoji,
 }));
 
 export const moodTags: MoodTag[] = Object.values(MOOD_META).map((m) => ({
   id: `mood-${m.slug}`,
   slug: m.slug,
   name: m.name,
-  emoji: m.emoji,
   colorToken: m.colorToken,
 }));
 
@@ -83,10 +81,10 @@ export const quizQuestions: QuizQuestion[] = [
     order: 1,
     multiple: false,
     options: [
-      { id: 'q1a', label: 'Spokojnie', icon: '😌', tagWeights: { relaks: 1 } },
-      { id: 'q1b', label: 'Zmęczony/a', icon: '😤', tagWeights: { energia: 1, comfort: 0.5 } },
-      { id: 'q1c', label: 'Energicznie', icon: '😊', tagWeights: { energia: 1, fokus: 0.5 } },
-      { id: 'q1d', label: 'Zamyślony/a', icon: '🤔', tagWeights: { fokus: 1 } },
+      { id: 'q1a', label: 'Spokojnie', icon: 'smile', tagWeights: { relaks: 1 } },
+      { id: 'q1b', label: 'Zmęczony/a', icon: 'battery-low', tagWeights: { energia: 1, comfort: 0.5 } },
+      { id: 'q1c', label: 'Energicznie', icon: 'smile-plus', tagWeights: { energia: 1, fokus: 0.5 } },
+      { id: 'q1d', label: 'Zamyślony/a', icon: 'brain', tagWeights: { fokus: 1 } },
     ],
   },
   {
@@ -96,10 +94,10 @@ export const quizQuestions: QuizQuestion[] = [
     order: 2,
     multiple: false,
     options: [
-      { id: 'q2a', label: 'Poranek', icon: '🌅', tagWeights: { energia: 1, fokus: 0.5 } },
-      { id: 'q2b', label: 'Południe', icon: '☀️', tagWeights: { fokus: 1 } },
-      { id: 'q2c', label: 'Popołudnie', icon: '🌆', tagWeights: { relaks: 0.5, comfort: 0.5 } },
-      { id: 'q2d', label: 'Wieczór', icon: '🌙', tagWeights: { wieczor: 1, relaks: 0.5 } },
+      { id: 'q2a', label: 'Poranek', icon: 'sunrise', tagWeights: { energia: 1, fokus: 0.5 } },
+      { id: 'q2b', label: 'Południe', icon: 'sun', tagWeights: { fokus: 1 } },
+      { id: 'q2c', label: 'Popołudnie', icon: 'sunset', tagWeights: { relaks: 0.5, comfort: 0.5 } },
+      { id: 'q2d', label: 'Wieczór', icon: 'moon', tagWeights: { wieczor: 1, relaks: 0.5 } },
     ],
   },
   {
@@ -109,10 +107,10 @@ export const quizQuestions: QuizQuestion[] = [
     order: 3,
     multiple: false,
     options: [
-      { id: 'q3a', label: 'Wyciszenia', icon: '🧘', tagWeights: { relaks: 1, wieczor: 0.5 } },
-      { id: 'q3b', label: 'Pobudzenia', icon: '⚡', tagWeights: { energia: 1 } },
-      { id: 'q3c', label: 'Skupienia', icon: '🎯', tagWeights: { fokus: 1 } },
-      { id: 'q3d', label: 'Otulenia', icon: '🤗', tagWeights: { comfort: 1 } },
+      { id: 'q3a', label: 'Wyciszenia', icon: 'waves', tagWeights: { relaks: 1, wieczor: 0.5 } },
+      { id: 'q3b', label: 'Pobudzenia', icon: 'zap', tagWeights: { energia: 1 } },
+      { id: 'q3c', label: 'Skupienia', icon: 'target', tagWeights: { fokus: 1 } },
+      { id: 'q3d', label: 'Otulenia', icon: 'heart', tagWeights: { comfort: 1 } },
     ],
   },
   {
@@ -122,10 +120,10 @@ export const quizQuestions: QuizQuestion[] = [
     order: 4,
     multiple: true,
     options: [
-      { id: 'q4a', label: 'Kwiatowe', icon: '🌸', tagWeights: { relaks: 0.5 } },
-      { id: 'q4b', label: 'Owocowe', icon: '🍓', tagWeights: { comfort: 0.5, energia: 0.3 } },
-      { id: 'q4c', label: 'Ziołowe', icon: '🌿', tagWeights: { detox: 0.6, relaks: 0.4 } },
-      { id: 'q4d', label: 'Słodkie', icon: '🍯', tagWeights: { comfort: 0.6 } },
+      { id: 'q4a', label: 'Kwiatowe', icon: 'flower', tagWeights: { relaks: 0.5 } },
+      { id: 'q4b', label: 'Owocowe', icon: 'cherry', tagWeights: { comfort: 0.5, energia: 0.3 } },
+      { id: 'q4c', label: 'Ziołowe', icon: 'leaf', tagWeights: { detox: 0.6, relaks: 0.4 } },
+      { id: 'q4d', label: 'Słodkie', icon: 'candy', tagWeights: { comfort: 0.6 } },
     ],
   },
   {
@@ -135,9 +133,9 @@ export const quizQuestions: QuizQuestion[] = [
     order: 5,
     multiple: false,
     options: [
-      { id: 'q5a', label: 'Delikatną', icon: '🍃', tagWeights: { relaks: 0.6, fokus: 0.3 } },
-      { id: 'q5b', label: 'Średnią', icon: '⚖️', tagWeights: { fokus: 0.4, comfort: 0.4 } },
-      { id: 'q5c', label: 'Mocną', icon: '💪', tagWeights: { energia: 0.8 } },
+      { id: 'q5a', label: 'Delikatną', icon: 'feather', tagWeights: { relaks: 0.6, fokus: 0.3 } },
+      { id: 'q5b', label: 'Średnią', icon: 'scale', tagWeights: { fokus: 0.4, comfort: 0.4 } },
+      { id: 'q5c', label: 'Mocną', icon: 'flame', tagWeights: { energia: 0.8 } },
     ],
   },
   {
@@ -147,9 +145,9 @@ export const quizQuestions: QuizQuestion[] = [
     order: 6,
     multiple: false,
     options: [
-      { id: 'q6a', label: 'Sporo', icon: '☕', tagWeights: { energia: 1, fokus: 0.5 } },
-      { id: 'q6b', label: 'Trochę', icon: '🍵', tagWeights: { fokus: 0.5, relaks: 0.3 } },
-      { id: 'q6c', label: 'Wcale', icon: '🚫', tagWeights: { wieczor: 0.8, relaks: 0.6, detox: 0.4 } },
+      { id: 'q6a', label: 'Sporo', icon: 'coffee', tagWeights: { energia: 1, fokus: 0.5 } },
+      { id: 'q6b', label: 'Trochę', icon: 'cup-soda', tagWeights: { fokus: 0.5, relaks: 0.3 } },
+      { id: 'q6c', label: 'Wcale', icon: 'ban', tagWeights: { wieczor: 0.8, relaks: 0.6, detox: 0.4 } },
     ],
   },
   {
@@ -159,9 +157,9 @@ export const quizQuestions: QuizQuestion[] = [
     order: 7,
     multiple: false,
     options: [
-      { id: 'dopasuj', label: 'Dopasuj do nastroju', icon: '🎯', tagWeights: {} },
-      { id: 'popraw', label: 'Popraw nastrój', icon: '☀️', tagWeights: {} },
-      { id: 'zaskocz', label: 'Zaskocz mnie', icon: '🎲', tagWeights: {} },
+      { id: 'dopasuj', label: 'Dopasuj do nastroju', icon: 'target', tagWeights: {} },
+      { id: 'popraw', label: 'Popraw nastrój', icon: 'sun', tagWeights: {} },
+      { id: 'zaskocz', label: 'Zaskocz mnie', icon: 'dices', tagWeights: {} },
     ],
   },
 ];

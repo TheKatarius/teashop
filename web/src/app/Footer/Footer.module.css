@@ -12,6 +12,9 @@
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
   font-family: var(--font-display);
   font-size: var(--text-h3-size);
   color: var(--color-brand-ink);

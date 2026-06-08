@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Heart, Package, User, X } from 'lucide-react';
+import { Heart, Leaf, Package, User, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { CATEGORY_META } from '@/features/catalog/categoryMeta';
 import styles from './MobileMenu.module.css';
@@ -24,7 +24,9 @@ export function MobileMenu({ onClose }: MobileMenuProps) {
         onMouseDown={(e) => e.stopPropagation()}
       >
         <div className={styles.head}>
-          <span className={styles.brand}>🍵 TeaShop</span>
+          <span className={styles.brand}>
+            <Leaf size={18} aria-hidden /> TeaShop
+          </span>
           <button type="button" className={styles.close} onClick={onClose} aria-label="Zamknij menu">
             <X size={24} />
           </button>
@@ -37,7 +39,7 @@ export function MobileMenu({ onClose }: MobileMenuProps) {
           {CATEGORY_META.map((c) => (
             <li key={c.slug}>
               <Link to={`/sklep/${c.slug}`} className={styles.categoryLink} onClick={onClose}>
-                <span aria-hidden>{c.emoji}</span> {c.name}
+                <c.Icon size={16} aria-hidden /> {c.name}
               </Link>
             </li>
           ))}
