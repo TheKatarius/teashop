@@ -8,6 +8,7 @@ import { useQuizDraft, useQuizResult } from '@/features/quiz/store';
 import { toast } from '@/features/toast/store';
 import { Button } from '@/components/Button/Button';
 import { EmptyState } from '@/components/EmptyState/EmptyState';
+import { Icon } from '@/components/Icon/Icon';
 import { Skeleton } from '@/components/Skeleton/Skeleton';
 import { cn } from '@/lib/cn';
 import styles from './QuizPage.module.css';
@@ -136,9 +137,7 @@ export function QuizPage() {
                 <span className={styles.optionKey} aria-hidden>
                   {i + 1}
                 </span>
-                <span className={styles.optionIcon} aria-hidden>
-                  {option.icon}
-                </span>
+                <Icon name={option.icon} size={28} className={styles.optionIcon} aria-hidden />
                 <span className={styles.optionLabel}>{option.label}</span>
               </button>
             );

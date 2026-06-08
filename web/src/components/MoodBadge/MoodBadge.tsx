@@ -4,7 +4,7 @@ import styles from './MoodBadge.module.css';
 
 interface MoodBadgeProps {
   slug: string;
-  /** show only the emoji (compact rows in cart / quiz lists) */
+  /** show only the icon (compact rows in cart / quiz lists) */
   iconOnly?: boolean;
   className?: string;
 }
@@ -14,19 +14,20 @@ export function MoodBadge({ slug, iconOnly = false, className }: MoodBadgeProps)
   const mood = MOOD_META[slug];
   if (!mood) return null;
 
+  const { Icon } = mood;
   const style = { '--mood-color': `var(${mood.colorToken})` } as React.CSSProperties;
 
   if (iconOnly) {
     return (
-      <span className={cn(styles.icon, className)} title={mood.name} aria-label={mood.name}>
-        {mood.emoji}
+      <span className={cn(styles.icon, className)} title={mood.name} role="img" aria-label={mood.name}>
+        <Icon size={16} aria-hidden />
       </span>
     );
   }
 
   return (
     <span className={cn(styles.badge, className)} style={style}>
-      <span aria-hidden>{mood.emoji}</span>
+      <Icon size={14} aria-hidden />
       {mood.name}
     </span>
   );

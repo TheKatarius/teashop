@@ -1,4 +1,4 @@
-import { Heart, LogOut, Package, User as UserIcon } from 'lucide-react';
+import { Heart, LogOut, MapPin, Package, User as UserIcon } from 'lucide-react';
 import { Navigate, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '@/features/auth/store';
 import { toast } from '@/features/toast/store';
@@ -46,7 +46,9 @@ export function ProfilePage() {
         </section>
 
         <section className={styles.card}>
-          <h2 className={styles.cardTitle}>📍 Zapisany adres</h2>
+          <h2 className={styles.cardTitle}>
+            <MapPin size={18} /> Zapisany adres
+          </h2>
           {user.savedAddress ? (
             <p className={styles.address}>
               {user.savedAddress.street}

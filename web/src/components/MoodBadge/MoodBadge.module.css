@@ -13,6 +13,7 @@
 }
 
 .icon {
-  font-size: var(--text-meta-size);
+  display: inline-flex;
+  align-items: center;
   line-height: 1;
 }

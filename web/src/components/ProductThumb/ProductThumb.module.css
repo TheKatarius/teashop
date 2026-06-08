@@ -5,7 +5,11 @@
   aspect-ratio: 1 / 1;
   width: 100%;
   background: var(--color-bg-cool-cream);
-  font-size: 64px;
-  line-height: 1;
   user-select: none;
+}
+
+.glyph {
+  width: 42%;
+  height: 42%;
+  color: var(--color-brand-green);
 }

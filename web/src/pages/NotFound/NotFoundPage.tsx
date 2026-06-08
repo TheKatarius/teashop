@@ -1,3 +1,4 @@
+import { Leaf } from 'lucide-react';
 import { Button } from '@/components/Button/Button';
 import { EmptyState } from '@/components/EmptyState/EmptyState';
 
@@ -5,7 +6,7 @@ export function NotFoundPage() {
   return (
     <div className="container">
       <EmptyState
-        icon="🍵"
+        icon={<Leaf size={48} />}
         title="404 — tu pusto jak w pustej puszce"
         description="Strona, której szukasz, nie istnieje lub została przeniesiona."
         actions={

@@ -1,4 +1,4 @@
-import { Leaf } from 'lucide-react';
+import { Leaf, PartyPopper } from 'lucide-react';
 import { formatPrice } from '@/lib/format';
 import { FREE_SHIPPING_THRESHOLD } from '../store';
 import styles from './FreeShippingBar.module.css';
@@ -14,7 +14,9 @@ export function FreeShippingBar({ subtotal }: { subtotal: number }) {
       <p className={styles.label}>
         <Leaf size={16} aria-hidden />
         {qualifies ? (
-          <span>Masz darmową dostawę! 🎉</span>
+          <span>
+            Masz darmową dostawę! <PartyPopper size={16} aria-hidden />
+          </span>
         ) : (
           <span>
             Dodaj jeszcze <strong>{formatPrice(remaining)}</strong> do darmowej dostawy

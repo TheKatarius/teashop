@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { SlidersHorizontal, X } from 'lucide-react';
+import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { useParams } from 'react-router-dom';
 import { categoryName } from '@/features/catalog/categoryMeta';
 import { useProducts } from '@/features/catalog/api';
@@ -79,7 +79,7 @@ export function ShopPage() {
             />
           ) : !isLoading && total === 0 ? (
             <EmptyState
-              icon="🔍"
+              icon={<Search size={48} />}
               title="Brak wyników"
               description="Nie znaleźliśmy herbat dla wybranych filtrów. Spróbuj quizu nastrojowego lub zobacz bestsellery."
               actions={

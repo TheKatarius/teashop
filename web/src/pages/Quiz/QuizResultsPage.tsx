@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { Brain, Leaf, Save } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { categoryName } from '@/features/catalog/categoryMeta';
 import { MOOD_META } from '@/features/catalog/moodMeta';
@@ -24,7 +25,7 @@ export function QuizResultsPage() {
     return (
       <div className="container">
         <EmptyState
-          icon="🧠"
+          icon={<Brain size={48} />}
           title="Nie masz jeszcze wyniku quizu"
           description="Odpowiedz na 7 pytań, a dobierzemy herbaty pod Twój nastrój."
           actions={<Button to="/quiz">Zacznij quiz</Button>}
@@ -47,13 +48,15 @@ export function QuizResultsPage() {
       <section className={styles.hero}>
         <div className="container">
           <p className={styles.eyebrow}>Twój wynik</p>
-          <h1 className={styles.title}>🍵 Twoje herbaty na dziś</h1>
+          <h1 className={styles.title}>
+            <Leaf size={28} aria-hidden /> Twoje herbaty na dziś
+          </h1>
           <div className={styles.moodTags}>
             {result.moodSummary.map((slug) => {
               const mood = MOOD_META[slug];
               return mood ? (
                 <span key={slug} className={styles.moodTag}>
-                  {mood.emoji} {mood.name}
+                  <mood.Icon size={16} aria-hidden /> {mood.name}
                 </span>
               ) : null;
             })}
@@ -86,7 +89,7 @@ export function QuizResultsPage() {
           {visible.map((rec) => (
             <li key={rec.product.id} className={styles.recommendation}>
               <span className={styles.rank} aria-label={`Pozycja ${rec.rank}`}>
-                {rec.rank === 1 ? '🥇' : rec.rank === 2 ? '🥈' : rec.rank === 3 ? '🥉' : rec.rank}
+                {rec.rank}
               </span>
               <ProductCard product={rec.product} matchScore={rec.score} />
             </li>
@@ -101,7 +104,7 @@ export function QuizResultsPage() {
         </div>
 
         <p className={styles.save}>
-          💾 Wynik zapisany na tym urządzeniu.{' '}
+          <Save size={14} aria-hidden /> Wynik zapisany na tym urządzeniu.{' '}
           <a href="/rejestracja">Załóż konto, by zachować historię quizów.</a>
         </p>
       </div>
