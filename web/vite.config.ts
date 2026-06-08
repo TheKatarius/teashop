@@ -7,6 +7,7 @@ const here = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   plugins: [react()],
+  base: '/teashop/',
   resolve: {
     alias: { '@': resolve(here, 'src') },
   },
