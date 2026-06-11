@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { Heart, Leaf, Package, User, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { CATEGORY_META } from '@/features/catalog/categoryMeta';
@@ -16,7 +17,7 @@ export function MobileMenu({ onClose }: MobileMenuProps) {
     return () => document.removeEventListener('keydown', onKey);
   }, [onClose]);
 
-  return (
+  return createPortal(
     <div className={styles.backdrop} onMouseDown={onClose}>
       <nav
         className={styles.drawer}
@@ -67,6 +68,7 @@ export function MobileMenu({ onClose }: MobileMenuProps) {
           <Heart size={18} /> Ulubione
         </Link>
       </nav>
-    </div>
+    </div>,
+    document.body,
   );
 }
