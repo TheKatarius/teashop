@@ -21,7 +21,7 @@
           var query = decoded[1] ? '?' + decoded[1].slice(2) : ''; // strip "q="
           window.history.replaceState(
             null, null,
-            window.location.pathname.split('/').slice(0, 2).join('/') + '/' + path + query + window.location.hash
+            window.location.pathname.split('/').slice(0, 2).join('/') + path + query + window.location.hash
           );
         }
       })();
