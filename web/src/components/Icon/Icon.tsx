@@ -1,18 +1,65 @@
-interface IconProps {
+import {
+  Ban,
+  BatteryLow,
+  Brain,
+  Candy,
+  Cherry,
+  Coffee,
+  CupSoda,
+  Dices,
+  Feather,
+  Flame,
+  Flower,
+  Heart,
+  Leaf,
+  Moon,
+  Scale,
+  Smile,
+  SmilePlus,
+  Sun,
+  Sunrise,
+  Sunset,
+  Target,
+  Waves,
+  Zap,
+  type LucideIcon,
+  type LucideProps,
+} from 'lucide-react';
+
+// Registry for data-driven icons (quiz options come from the mock API as name
+// strings, so they can't carry a component reference like the taxonomy meta does).
+const ICONS: Record<string, LucideIcon> = {
+  ban: Ban,
+  'battery-low': BatteryLow,
+  brain: Brain,
+  candy: Candy,
+  cherry: Cherry,
+  coffee: Coffee,
+  'cup-soda': CupSoda,
+  dices: Dices,
+  feather: Feather,
+  flame: Flame,
+  flower: Flower,
+  heart: Heart,
+  leaf: Leaf,
+  moon: Moon,
+  scale: Scale,
+  smile: Smile,
+  'smile-plus': SmilePlus,
+  sun: Sun,
+  sunrise: Sunrise,
+  sunset: Sunset,
+  target: Target,
+  waves: Waves,
+  zap: Zap,
+};
+
+interface IconProps extends LucideProps {
   name: string;
-  size?: number;
-  className?: string;
-  'aria-hidden'?: boolean | 'true' | 'false';
 }
 
-export function Icon({ name, size = 24, className, 'aria-hidden': ariaHidden }: IconProps) {
-  return (
-    <span
-      className={className}
-      style={{ fontSize: size, lineHeight: 1, display: 'inline-block' }}
-      aria-hidden={ariaHidden}
-    >
-      {name}
-    </span>
-  );
+/** Renders a Lucide icon by name, falling back to a leaf if the name is unknown. */
+export function Icon({ name, ...props }: IconProps) {
+  const Glyph = ICONS[name] ?? Leaf;
+  return <Glyph {...props} />;
 }
