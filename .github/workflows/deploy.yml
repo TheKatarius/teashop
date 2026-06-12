@@ -38,6 +38,7 @@ jobs:
         working-directory: web
         env:
           VITE_USE_MOCK: 'true'
+          VITE_GA_MEASUREMENT_ID: ${{ secrets.VITE_GA_MEASUREMENT_ID }}
 
       - uses: actions/configure-pages@v5
 
