@@ -18,29 +18,32 @@ import { TermsPage } from '@/pages/Static/TermsPage';
 import { PrivacyPage } from '@/pages/Static/PrivacyPage';
 import { NotFoundPage } from '@/pages/NotFound/NotFoundPage';
 
-export const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <RootLayout />,
-    children: [
-      { index: true, element: <HomePage /> },
-      { path: 'sklep', element: <ShopPage /> },
-      { path: 'sklep/:kategoria', element: <ShopPage /> },
-      { path: 'produkt/:slug', element: <ProductPage /> },
-      { path: 'koszyk', element: <CartPage /> },
-      { path: 'ulubione', element: <FavoritesPage /> },
-      { path: 'quiz', element: <QuizPage /> },
-      { path: 'quiz/wyniki', element: <QuizResultsPage /> },
-      { path: 'zamowienie', element: <CheckoutPage /> },
-      { path: 'zamowienie/sukces/:orderId', element: <OrderSuccessPage /> },
-      { path: 'logowanie', element: <LoginPage /> },
-      { path: 'rejestracja', element: <RegisterPage /> },
-      { path: 'profil', element: <ProfilePage /> },
-      { path: 'o-nas', element: <AboutPage /> },
-      { path: 'kontakt', element: <ContactPage /> },
-      { path: 'regulamin', element: <TermsPage /> },
-      { path: 'polityka-prywatnosci', element: <PrivacyPage /> },
-      { path: '*', element: <NotFoundPage /> },
-    ],
-  },
-]);
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <RootLayout />,
+      children: [
+        { index: true, element: <HomePage /> },
+        { path: 'sklep', element: <ShopPage /> },
+        { path: 'sklep/:kategoria', element: <ShopPage /> },
+        { path: 'produkt/:slug', element: <ProductPage /> },
+        { path: 'koszyk', element: <CartPage /> },
+        { path: 'ulubione', element: <FavoritesPage /> },
+        { path: 'quiz', element: <QuizPage /> },
+        { path: 'quiz/wyniki', element: <QuizResultsPage /> },
+        { path: 'zamowienie', element: <CheckoutPage /> },
+        { path: 'zamowienie/sukces/:orderId', element: <OrderSuccessPage /> },
+        { path: 'logowanie', element: <LoginPage /> },
+        { path: 'rejestracja', element: <RegisterPage /> },
+        { path: 'profil', element: <ProfilePage /> },
+        { path: 'o-nas', element: <AboutPage /> },
+        { path: 'kontakt', element: <ContactPage /> },
+        { path: 'regulamin', element: <TermsPage /> },
+        { path: 'polityka-prywatnosci', element: <PrivacyPage /> },
+        { path: '*', element: <NotFoundPage /> },
+      ],
+    },
+  ],
+  { basename: import.meta.env.BASE_URL.replace(/\/$/, '') },
+);

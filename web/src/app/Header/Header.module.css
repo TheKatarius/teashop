@@ -139,18 +139,11 @@
   justify-content: center;
 }
 
-.profileButton {
-  display: none;
-}
-
 @media (min-width: 1024px) {
   .hamburger {
     display: none;
   }
   .nav {
     display: flex;
-  }
-  .profileButton {
-    display: inline-flex;
   }
 }

@@ -4,6 +4,7 @@ import { Header } from '@/app/Header/Header';
 import { Footer } from '@/app/Footer/Footer';
 import { CartDrawer } from '@/features/cart/components/CartDrawer';
 import { ToastViewport } from '@/features/toast/ToastViewport';
+import { trackPageView } from '@/lib/analytics';
 import styles from './RootLayout.module.css';
 
 export function RootLayout() {
@@ -11,6 +12,7 @@ export function RootLayout() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    trackPageView(pathname);
   }, [pathname]);
 
   return (

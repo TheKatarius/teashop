@@ -9,6 +9,33 @@
       content="TeaShop — herbata dopasowana do Twojego nastroju. Zrób quiz, odkryj kolekcje i parz świadomie."
     />
     <title>TeaShop — herbata dopasowana do nastroju</title>
+    <script>
+      // Decode path encoded by 404.html redirect.
+      (function () {
+        var s = window.location.search;
+        if (s[1] === 'p' && s[2] === '=') {
+          var decoded = s.slice(1).split('&').map(function (part) {
+            return part.replace(/~and~/g, '&');
+          });
+          var path = decoded[0].slice(2); // strip "p="
+          var query = decoded[1] ? '?' + decoded[1].slice(2) : ''; // strip "q="
+          window.history.replaceState(
+            null, null,
+            window.location.pathname.split('/').slice(0, 2).join('/') + path + query + window.location.hash
+          );
+        }
+      })();
+    </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-00H34TCJ64"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'G-00H34TCJ64', { send_page_view: false });
+    </script>
+    <!-- Contentsquare / Hotjar -->
+    <script src="https://t.contentsquare.net/uxa/7419e02c3fcd7.js" defer></script>
   </head>
   <body>
     <div id="root"></div>
