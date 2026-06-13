@@ -60,8 +60,8 @@ npm run typecheck    # tsc --noEmit
 Identyfikatory podaje się przez zmienne środowiskowe (puste lokalnie → analityka wyłączona, brak szumu w danych):
 
 ```env
-VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
-VITE_HOTJAR_SITE_ID=1234567
+VITE_GA_MEASUREMENT_ID=G-00H34TCJ64
+VITE_HOTJAR_SITE_HASH=7419e02c3fcd7
 ```
 
 - Inicjalizacja obu narzędzi: `web/src/lib/analytics.ts`, wywoływana z `App.tsx`
@@ -89,13 +89,9 @@ VITE_HOTJAR_SITE_ID=1234567
 
 ## Wyniki z Google Analytics
 
-> ⚠️ Uzupełnij po wdrożeniu: ustaw `VITE_GA_MEASUREMENT_ID` na zdeployowanej wersji, odwiedź kilka podstron i wstaw zrzut z panelu GA (Raporty → Czas rzeczywisty / Zaangażowanie → Strony).
-
 ![Google Analytics](docs/screenshots/ga-dashboard.png)
 
 ## Wyniki z Hotjar
-
-> ⚠️ Uzupełnij po wdrożeniu: ustaw `VITE_HOTJAR_SITE_ID`, zbierz sesje i wstaw zrzut z panelu Hotjar (Heatmaps / Recordings).
 
 ![Hotjar](docs/screenshots/hotjar-dashboard.png)
 
